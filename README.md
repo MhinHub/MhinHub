@@ -13,7 +13,7 @@
 
 <h5 align="left">Connect with me:</h5>
 <p align="left">
-<a href="https://instagram.com/emxme.n" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="emxme.n" height="30" width="27" /></a>
+<a href="https://instagram.com/muhis.me" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="muhis.me" height="30" width="27" /></a>
 </p>
 
   
