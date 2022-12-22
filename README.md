@@ -1,23 +1,23 @@
 [![MasterHead](https://www.nielsen.com/wp-content/uploads/sites/3/2019/04/data-science-icon-animation-banner-clockwise.gif?fit=1200%2C400)](https://github.com/MhinHub/)
 
-<p align="center">
+<span align="center">
   <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+My+Profile;Hope+you+enjoy+it!&center=true&width=360&height=50">
-</p>
+</span>
 
 
 <h1 align="center">Hi 👋, I'm Muhaemin Iskandar </h1>
-<h4 align="center">I'm passionate All about Data. So mostly I learned about Business, Artificial Intelligence, Analytical, Human-Centered Experience and others related on it  </h4>
+<p align="center">I'm thoughts Front-End in short-term, Back-End in middle-term, & UI/UX in long-term of tech dev scope. I'm also aware of the importance of data, so mostly I learned about Business, Artificial Intelligence, Analytical, Human-Centered Experience and others related on it then connect them</p>
 
 ![](https://komarev.com/ghpvc/?username=MhinHub)
 <img align="right" width=650 alt="Coding" src="https://www.congruentsoft.com/Images/bi/bi-dashboard.gif">
 
-<h5 align="left">Connect with me:</h5>
+<h2 align="left">Connect with me:</h2>
 <p align="left">
 <a href="https://instagram.com/muhis.me" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="muhis.me" height="30" width="27" /></a>
 </p>
 
   
-<h5 align="left">Languages and Tools:</h5>
+<h2 align="left">Languages and Tools:</h2>
 <p align="left">
   <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="27" height="27"/> </a>
   <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="27" height="27"/> </a>
@@ -37,7 +37,7 @@
   
   </p>
   
-  <h5 align="left">AI/ML:</h5>
+  <h2 align="left">AI/ML:</h2>
 <p align="left">
 <a href="https://opencv.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="27" height="27"/> </a>
   <a href="https://pytorch.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="27" height="27"/> </a>
@@ -70,11 +70,8 @@
       <img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=mhinhub&hide=c%23,powershell,Mathematica,Ruby,Objective-C,Objective-C%2b%2b,Cuda&title_color=61dafb&text_color=ffffff&icon_color=61dafb&bg_color=20232a&langs_count=8&layout=compact&border_color=61dafb&hide_border=true" />
     </a>
   </div>
-  <br>
-  <img src="https://activity-graph.herokuapp.com/graph?username=mhinhub&theme=react-dark&bg_color=20232a&hide_border=true" width="100%"/>
+  <br>    
 </p>
 
-<hr>
 
-
-
+[![MhinHub github activity graph](https://github-readme-activity-graph.cyclic.app/graph?username=MhinHub&bg_color=20232A&color=61d9fa&line=61d9fa&point=e6e6e6&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
