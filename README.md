@@ -2,49 +2,9 @@
 
 ![](./profile.svg)
 
-<style>
-  button {
-        position: relative;
-        border: none;
-        margin: 10px;
-        background-color: transparent;
-      }
-      button a {
-        width: 60px;
-        height: 60px;
-        border-radius: 100px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        border: 1px solid rgba(255, 255, 255, 0.5);
-        border-right: 1px solid rgba(255, 255, 255, 0.2);
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-        box-shadow: 0 5px 45px rgba(0, 0, 0, 0.3);
-        backdrop-filter: blur(2px);
-        transition: 0.5s;
-        overflow: hidden;
-        background-color: rgba(255, 255, 255, 0.1);
-      }
-      button a:hover {
-        transform: translateY(-20px);
-      }
-      button a::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 10;
-        width: 50px;
-        height: 100%;
-        background-color: rgba(255, 255, 255, 0.5);
-        transform: skewX(45deg) translateX(150px);
-        transition: 0.5s ease;
-      }
-      button a:hover::before {
-        transform: skewX(45deg) translateX(-150px);
-      }
-      </style>
+<link rel="stylesheet" type="text/css" href="./styles_md.css">
 
-  <div align="center" style="margin-top: -40px;">
+<div align="center" style="margin-top: -40px;">
           <button>
             <a
               href="https://www.linkedin.com/in/muhaemin-iskandar"
@@ -75,7 +35,7 @@
               />
             </a>
           </button>
-        </div>
+</div>
 
 <details><summary style="font-weight: 700;">More...</summary>
 <!-- DevCard -->
