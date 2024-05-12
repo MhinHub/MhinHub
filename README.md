@@ -1,6 +1,6 @@
 ![](https://komarev.com/ghpvc/?username=MhinHub)
 
-<svg fill="none" viewBox="0 0 600 1000" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 600 950" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
@@ -45,6 +45,7 @@
           transform-origin: 70% 70%;
         }
         h2 {
+          margin-top: 20px;
   padding: 10px 15px;
   position: relative;
   width: fit-content;
@@ -65,31 +66,95 @@
   -webkit-mask-composite: xor;
           mask-composite: exclude;
         }
+        h3 {
+          border-bottom: 1px solid #00DFD8;
+          width: fit-content;
+        }
+        button {
+  position: relative;
+  border: none;
+  margin: 10px;
+  background-color: transparent;
+}
+button a {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(2px);
+  transition: 0.5s;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+button a:hover {
+  transform: translateY(-20px);
+}
+button a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 10;
+  width: 50px;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  transform: skewX(45deg) translateX(150px);
+  transition: 0.5s ease;
+}
+button a:hover::before {
+  transform: skewX(45deg) translateX(-150px);
+}
+.loader {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: rgb(105, 255, 168, 0.5);
+  animation: 1.5s pulse infinite ease-in-out;
+  backdrop-filter: blur(2px);
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 #69ffa8;
+  }
+  100% {
+    box-shadow: 0 0 0 8px #69ffa800;
+  }
+}
       </style>
       <main class="container">
-      <!-- <header style="position: relative; display: flex;  flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 200px;"> -->
         <div style="position: absolute; top: 0; z-index: 0; height: 100%; width: 100%; background-image: radial-gradient(#ffffff33 1px, transparent 1px); background-size: 20px 20px; border-radius: 40px 40px 0px 0px;"></div>
-        <div style="z-index: 1;">
-        <p align="center" style="margin-bottom: -8px;">Connecting the Dots</p>
-        <div style="display: flex; gap: 10px; font-weight: 700; font-size: 3rem; margin-bottom: 10px">
+        <div align="center" style="z-index: 1;">
+        <p style="margin-bottom: -8px;">Connecting the Dots</p>
+        <div align="center" style="display: flex; gap: 10px; font-weight: 700; font-size: 3rem;">
         <p style="background: linear-gradient(-45deg, #007CF0, #00DFD8); background-size: 200% 200%; animation: gradient 3s ease infinite; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Design.</p>
         <p style="background: linear-gradient(-45deg, #7928CA, #FF0080); background-size: 200% 200%; animation: gradient 3s ease infinite; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Develop.</p>
         <p style="background: linear-gradient(-45deg, #6FEE8D, #17C964); background-size: 200% 200%; animation: gradient 3s ease infinite; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Desire.</p>
         </div>
-        <!-- </div> -->
-      </header>
-        <div align="center" style="margin: 20px 0;">
+        <div align="center" style="position: relative; display: flex; justify-content: center; gap: 10px; border-radius: 100px; padding: 0 10px; width: fit-content; align-items: center; border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.3);">
+        <div class="loader"></div>
+        <p style="margin-bottom: 0px">Open to Work</p>
+        </div>
+        </div>
+        <div align="center" style="margin: 20px 0; padding-top: 20px;">
         <h1 style="font-size: 2rem; font-weight: 900;">Heyyo, I'm Min <div class="hi">👋</div></h1>
         <p>Road to be M-Shape Software Engineer</p>
         <p>Currently deep-dive in FE & Realtime-API</p>
       </div>
         <div style="z-index: 1;">
       <div align="center">
-      <h2>Tech Stack</h2>
+      <h2>🧑‍💻 Top Tech Stack</h2>
       <h3>Languages</h3>
       <img src="https://skillicons.dev/icons?i=ts,python,golang" alt="icons">
       <h3>Tools</h3>
-      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+      <div style="display: flex; gap: 10px; flex-wrap: wrap; padding: 0 30px;">
       <img src="https://img.shields.io/badge/Next-black?logo=next.js&logoColor=white" alt="icon" height="25"/>
       <img src="https://img.shields.io/badge/express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB" alt="icon" height="25"/>
       <img src="https://img.shields.io/badge/nestjs-%23E0234E.svg?logo=nestjs&logoColor=white" alt="icon" height="25"/>
@@ -112,18 +177,39 @@
       <img src="https://img.shields.io/badge/figma-black.svg?logo=figma" alt="icon" height="25"/>
       <img src="https://img.shields.io/badge/Framer-black?logo=framer&logoColor=blue" alt="icon" height="25"/>
       </div>
-      </div>
-      <div align="center">
-      <h2>Lets Connect</h2>
-      <a href="#">LinkedIn</a>
-      </div>
+      <div align="center" style="padding-top: 40px;">
+      <h2>🤝 Let's Connect</h2>
+      <button>
+      <a 
+      href="https://www.linkedin.com/in/muhaemin-iskandar"
+      target="_blank"
+      >      
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="sosmed" width="35">
+      </a>
+      </button>
+      <button>
+      <a 
+      href="https://instagram.com/muhis.me"
+      target="_blank"
+      >      
+      <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="sosmed" width="35">
+      </a>
+      </button>
+      <button>
+      <a 
+      href="https://t.me/telemuhis"
+      target="_blank"
+      >      
+      <img src="https://upload.wikimedia.org/wikipedia/commons/archive/8/82/20150929025725%21Telegram_logo.svg" alt="sosmed" width="35">
+      </a>
+      </button>
       </div>
       </main>
     </div>
   </foreignObject>
 </svg>
 
-<details><summary>More</summary>
+<details><summary style="font-weight: 700;">More...</summary>
 <!-- DevCard -->
   <h5 align='center'>DevCard</h5>
   <p align ="center">
