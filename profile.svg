@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<svg fill="none" viewBox="0 0 600 950" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" viewBox="0 0 600 800" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
   <foreignObject width="100%" height="100%">
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
@@ -102,50 +102,6 @@
           width: fit-content;
         }
 
-        button {
-          position: relative;
-          border: none;
-          margin: 10px;
-          background-color: transparent;
-        }
-
-        button a {
-          width: 60px;
-          height: 60px;
-          border-radius: 100px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          border: 1px solid rgba(255, 255, 255, 0.5);
-          border-right: 1px solid rgba(255, 255, 255, 0.2);
-          border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-          box-shadow: 0 5px 45px rgba(0, 0, 0, 0.3);
-          backdrop-filter: blur(2px);
-          transition: 0.5s;
-          overflow: hidden;
-          background-color: rgba(255, 255, 255, 0.1);
-        }
-
-        button a:hover {
-          transform: translateY(-20px);
-        }
-
-        button a::before {
-          content: '';
-          position: absolute;
-          top: 0;
-          left: 10;
-          width: 50px;
-          height: 100%;
-          background-color: rgba(255, 255, 255, 0.5);
-          transform: skewX(45deg) translateX(150px);
-          transition: 0.5s ease;
-        }
-
-        button a:hover::before {
-          transform: skewX(45deg) translateX(-150px);
-        }
-
         .loader {
           height: 10px;
           width: 10px;
@@ -177,8 +133,8 @@
           border-radius: 40px 40px 0px 0px;
         "></div>
         <div align="center" style="z-index: 1">
-          <p style="margin-bottom: -8px">Connecting the Dots</p>
-          <div align="center" style="display: flex; gap: 10px; font-weight: 700; font-size: 3rem">
+          <p style="margin-bottom: -40px">Connecting the Dots</p>
+          <div align="center" style="display: flex; gap: 10px; font-weight: 700; font-size: 3rem; margin: -20px 0;">
             <p style="
               background: linear-gradient(-45deg, #007cf0, #00dfd8);
               background-size: 200% 200%;
@@ -215,8 +171,8 @@
             display: flex;
             justify-content: center;
             gap: 10px;
-            border-radius: 100px;
-            padding: 0 10px;
+            border-radius: 200px;
+            padding: 5px 10px;
             width: fit-content;
             align-items: center;
             border: 1px solid rgba(255, 255, 255, 0.5);
@@ -225,7 +181,7 @@
             box-shadow: 0 5px 45px rgba(0, 0, 0, 0.3);
           ">
             <div class="loader"></div>
-            <p>Open to Work</p>
+            <p style="margin: 0;">Open to Work</p>
           </div>
         </div>
         <div align="center" style="margin: 20px 0; padding-top: 20px">
@@ -234,69 +190,573 @@
             <div class="hi">👋</div>
           </h1>
           <p>Road to be M-Shape Software Engineer</p>
-          <p>Currently deep-dive in FE & Realtime-API</p>
+          <p>Currently deep-dive in FE and Realtime-API</p>
         </div>
         <div style="z-index: 1">
           <div align="center">
             <h2>🧑‍💻 Top Tech Stack</h2>
             <h3>Languages</h3>
-            <img src="https://skillicons.dev/icons?i=ts,python,golang" alt="icons" />
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="160.5" height="48"
+              viewBox="0 0 856 256" fill="none" version="1.1">
+
+              <g transform="translate(0, 0)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="none" viewBox="0 0 256 256">
+                  <rect width="256" height="256" fill="#007ACC" rx="60" />
+                  <path fill="#fff"
+                    d="M56.6112 128.849L56.5299 139.333H73.1902H89.8505L89.8505 186.673V234.012H101.635H113.419V186.673L113.419 139.333H130.079H146.739V129.052C146.739 123.363 146.618 118.609 146.455 118.487C146.333 118.325 126.056 118.243 101.472 118.284L56.7331 118.406L56.6112 128.849Z" />
+                  <path fill="#fff"
+                    d="M206.567 118.108C213.068 119.734 218.026 122.619 222.577 127.332C224.934 129.852 228.428 134.444 228.713 135.541C228.794 135.866 217.66 143.343 210.915 147.528C210.671 147.691 209.695 146.634 208.598 145.009C205.307 140.214 201.853 138.141 196.57 137.776C188.809 137.247 183.811 141.311 183.852 148.097C183.852 150.088 184.136 151.266 184.949 152.892C186.655 156.427 189.825 158.54 199.781 162.847C218.107 170.731 225.949 175.932 230.826 183.327C236.271 191.576 237.49 204.742 233.792 214.535C229.729 225.181 219.651 232.414 205.469 234.812C201.081 235.584 190.678 235.462 185.965 234.609C175.684 232.78 165.932 227.701 159.918 221.037C157.561 218.436 152.969 211.65 153.254 211.162C153.375 211 154.432 210.35 155.61 209.659C156.748 209.009 161.056 206.53 165.119 204.173L172.474 199.906L174.018 202.182C176.172 205.473 180.885 209.984 183.73 211.487C191.897 215.795 203.113 215.185 208.639 210.228C210.996 208.074 211.971 205.839 211.971 202.548C211.971 199.581 211.605 198.281 210.061 196.046C208.07 193.202 204.007 190.804 192.466 185.806C179.26 180.117 173.571 176.582 168.37 170.974C165.363 167.724 162.518 162.522 161.34 158.174C160.365 154.558 160.121 145.496 160.893 141.839C163.615 129.08 173.246 120.181 187.143 117.539C191.654 116.686 202.137 117.011 206.567 118.108Z" />
+                </svg>
+              </g>
+
+              <g transform="translate(300, 0)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="none" viewBox="0 0 256 256">
+                  <rect width="256" height="256" fill="#242938" rx="60" />
+                  <path fill="url(#paint0_linear_2_47)"
+                    d="M127.279 29C76.5066 29 79.6772 51.018 79.6772 51.018L79.7338 73.8284H128.185V80.6772H60.4893C60.4893 80.6772 28 76.9926 28 128.222C28 179.452 56.3573 177.636 56.3573 177.636H73.2812V153.863C73.2812 153.863 72.369 125.506 101.186 125.506H149.24C149.24 125.506 176.239 125.942 176.239 99.4123V55.5461C176.239 55.5461 180.338 29 127.279 29ZM100.563 44.339C105.384 44.339 109.28 48.2351 109.28 53.0556C109.28 57.8761 105.384 61.7723 100.563 61.7723C95.7426 61.7723 91.8465 57.8761 91.8465 53.0556C91.8465 48.2351 95.7426 44.339 100.563 44.339Z" />
+                  <path fill="url(#paint1_linear_2_47)"
+                    d="M128.721 227.958C179.493 227.958 176.323 205.941 176.323 205.941L176.266 183.13H127.815V176.281H195.511C195.511 176.281 228 179.966 228 128.736C228 77.5062 199.643 79.323 199.643 79.323H182.719V103.096C182.719 103.096 183.631 131.453 154.814 131.453H106.76C106.76 131.453 79.7607 131.016 79.7607 157.546V201.412C79.7607 201.412 75.6615 227.958 128.721 227.958ZM155.437 212.619C150.616 212.619 146.72 208.723 146.72 203.903C146.72 199.082 150.616 195.186 155.437 195.186C160.257 195.186 164.154 199.082 164.154 203.903C164.154 208.723 160.257 212.619 155.437 212.619Z" />
+                  <defs>
+                    <linearGradient id="paint0_linear_2_47" x1="47.22" x2="146.333" y1="46.896" y2="145.02"
+                      gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#387EB8" />
+                      <stop offset="1" stop-color="#366994" />
+                    </linearGradient>
+                    <linearGradient id="paint1_linear_2_47" x1="108.056" x2="214.492" y1="109.905" y2="210.522"
+                      gradientUnits="userSpaceOnUse">
+                      <stop stop-color="#FFE052" />
+                      <stop offset="1" stop-color="#FFC331" />
+                    </linearGradient>
+                  </defs>
+                </svg>
+              </g>
+
+              <g transform="translate(600, 0)">
+                <svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" fill="none" viewBox="0 0 256 256">
+                  <rect width="256" height="256" fill="#00B4E0" rx="60" />
+                  <path fill="#fff"
+                    d="M40.5 113.234C40.1 113.234 40 113.034 40.2 112.734L42.3 110.034C42.5 109.734 43 109.534 43.4 109.534H79.1C79.5 109.534 79.6 109.834 79.4 110.134L77.7 112.734C77.5 113.034 77 113.334 76.7 113.334L40.5 113.234Z" />
+                  <path fill="#fff"
+                    d="M25.4 122.434C25 122.434 24.9 122.234 25.1 121.934L27.2 119.234C27.4 118.934 27.9 118.734 28.3 118.734H73.9C74.3 118.734 74.5 119.034 74.4 119.334L73.6 121.734C73.5 122.134 73.1 122.334 72.7 122.334L25.4 122.434Z" />
+                  <path fill="#fff"
+                    d="M49.6 131.634C49.2 131.634 49.1 131.334 49.3 131.034L50.7 128.534C50.9 128.234 51.3 127.934 51.7 127.934H71.7C72.1 127.934 72.3 128.234 72.3 128.634L72.1 131.034C72.1 131.434 71.7 131.734 71.4 131.734L49.6 131.634Z" />
+                  <path fill="#fff"
+                    d="M153.4 111.434C147.1 113.034 142.8 114.234 136.6 115.834C135.1 116.234 135 116.334 133.7 114.834C132.2 113.134 131.1 112.034 129 111.034C122.7 107.934 116.6 108.834 110.9 112.534C104.1 116.934 100.6 123.434 100.7 131.534C100.8 139.534 106.3 146.134 114.2 147.234C121 148.134 126.7 145.734 131.2 140.634C132.1 139.534 132.9 138.334 133.9 136.934C130.3 136.934 125.8 136.934 114.6 136.934C112.5 136.934 112 135.634 112.7 133.934C114 130.834 116.4 125.634 117.8 123.034C118.1 122.434 118.8 121.434 120.3 121.434C125.4 121.434 144.2 121.434 156.7 121.434C156.5 124.134 156.5 126.834 156.1 129.534C155 136.734 152.3 143.334 147.9 149.134C140.7 158.634 131.3 164.534 119.4 166.134C109.6 167.434 100.5 165.534 92.5 159.534C85.1 153.934 80.9 146.534 79.8 137.334C78.5 126.434 81.7 116.634 88.3 108.034C95.4 98.7343 104.8 92.8343 116.3 90.7343C125.7 89.0343 134.7 90.1343 142.8 95.6343C148.1 99.1343 151.9 103.934 154.4 109.734C155 110.634 154.6 111.134 153.4 111.434Z" />
+                  <path fill="#fff"
+                    d="M186.5 166.734C177.4 166.534 169.1 163.934 162.1 157.934C156.2 152.834 152.5 146.334 151.3 138.634C149.5 127.334 152.6 117.334 159.4 108.434C166.7 98.8343 175.5 93.8343 187.4 91.7343C197.6 89.9343 207.2 90.9343 215.9 96.8343C223.8 102.234 228.7 109.534 230 119.134C231.7 132.634 227.8 143.634 218.5 153.034C211.9 159.734 203.8 163.934 194.5 165.834C191.8 166.334 189.1 166.434 186.5 166.734ZM210.3 126.334C210.2 125.034 210.2 124.034 210 123.034C208.2 113.134 199.1 107.534 189.6 109.734C180.3 111.834 174.3 117.734 172.1 127.134C170.3 134.934 174.1 142.834 181.3 146.034C186.8 148.434 192.3 148.134 197.6 145.434C205.5 141.334 209.8 134.934 210.3 126.334Z" />
+                </svg>
+              </g>
+
+            </svg>
+          </div>
+          <div align="center">
             <h3>Tools</h3>
             <div style="display: flex; gap: 10px; flex-wrap: wrap; padding: 0 30px">
-              <img src="https://img.shields.io/badge/Next-black?logo=next.js&logoColor=white" alt="icon" height="25" />
-              <img src="https://img.shields.io/badge/express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB"
-                alt="icon" height="25" />
-              <img src="https://img.shields.io/badge/nestjs-%23E0234E.svg?logo=nestjs&logoColor=white" alt="icon"
-                height="25" />
-              <img src="https://img.shields.io/badge/FastAPI-005571?logo=fastapi" alt="icon" height="25" />
-              <img src="https://img.shields.io/badge/Gin-1C1E24?logo=gin" alt="icon" height="25" />
-              <img src="https://img.shields.io/badge/-GraphQL-E10098?logo=graphql&logoColor=white" alt="icon"
-                height="25" />
-              <img src="https://img.shields.io/badge/Socket.io-black?logo=socket.io&badgeColor=010101" alt="icon"
-                height="25" />
-              <img src="https://img.shields.io/badge/tRPC-black?logo=trpc" alt="icon" height="25" />
-              <img src="https://img.shields.io/badge/redux-%23593d88.svg?logo=redux&logoColor=white" alt="icon"
-                height="25" />
-              <img src="https://img.shields.io/badge/zustand-%23161616.svg?logo=react" alt="icon" height="25" />
-              <img src="https://img.shields.io/badge/node.js-6DA55F?logo=node.js&logoColor=white" alt="icon"
-                height="25" />
-              <img src="https://img.shields.io/badge/Bun-1C1E24?logo=bun" alt="icon" height="25" />
-              <img src="https://img.shields.io/badge/postgres-%23316192.svg?logo=postgresql&logoColor=white" alt="icon"
-                height="25" />
-              <img src="https://img.shields.io/badge/mysql-1C1E24.svg?logo=mysql" alt="icon" height="25" />
-              <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?logo=mongodb&logoColor=white" alt="icon"
-                height="25" />
-              <img src="https://img.shields.io/badge/firebase-%23039BE5.svg?logo=firebase" alt="icon" height="25" />
-              <img src="https://img.shields.io/badge/Prisma-3982CE?logo=Prisma&logoColor=white" alt="icon"
-                height="25" />
-              <img src="https://img.shields.io/badge/TensorFlow-black.svg?logo=TensorFlow" alt="icon" height="25" />
-              <img src="https://img.shields.io/badge/Tailwindcss-%2338B2AC.svg?logo=tailwind-css&logoColor=white"
-                alt="icon" height="25" />
-              <img src="https://img.shields.io/badge/figma-black.svg?logo=figma" alt="icon" height="25" />
-              <img src="https://img.shields.io/badge/Framer-black?logo=framer&logoColor=blue" alt="icon" height="25" />
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="53" height="20"
+                role="img" aria-label="Next">
+                <title>Next</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="90" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="90" height="20" fill="#161616" />
+                  <rect width="90" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZXNtb2tlIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TmV4dC5qczwvdGl0bGU+PHBhdGggZD0iTTE4LjY2NSAyMS45NzhDMTYuNzU4IDIzLjI1NSAxNC40NjUgMjQgMTIgMjQgNS4zNzcgMjQgMCAxOC42MjMgMCAxMlM1LjM3NyAwIDEyIDBzMTIgNS4zNzcgMTIgMTJjMCAzLjU4My0xLjU3NCA2LjgwMS00LjA2NyA5LjAwMUw5LjIxOSA3LjJINy4ydjkuNTk2aDEuNjE1VjkuMjUxbDkuODUgMTIuNzI3Wm0tMy4zMzItOC41MzMgMS42IDIuMDYxVjcuMmgtMS42djYuMjQ1WiIvPjwvc3ZnPg==" />
+                  <text aria-hidden="true" x="355" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="250">Next</text><text x="355" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="250">Next</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="85" height="20"
+                role="img" aria-label="express.js">
+                <title>express.js</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="85" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="85" height="20" fill="#161616" />
+                  <rect width="85" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZXNtb2tlIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+RXhwcmVzczwvdGl0bGU+PHBhdGggZD0iTTI0IDE4LjU4OGExLjUyOSAxLjUyOSAwIDAxLTEuODk1LS43MmwtMy40NS00Ljc3MS0uNS0uNjY3LTQuMDAzIDUuNDQ0YTEuNDY2IDEuNDY2IDAgMDEtMS44MDIuNzA4bDUuMTU4LTYuOTItNC43OTgtNi4yNTFhMS41OTUgMS41OTUgMCAwMTEuOS42NjZsMy41NzYgNC44MyAzLjU5Ni00LjgxYTEuNDM1IDEuNDM1IDAgMDExLjc4OC0uNjY4TDIxLjcwOCA3LjlsLTIuNTIyIDMuMjgzYS42NjYuNjY2IDAgMDAwIC45OTRsNC44MDQgNi40MTJ6TS4wMDIgMTEuNTc2bC40Mi0yLjA3NWMxLjE1NC00LjEwMyA1Ljg1OC01LjgxIDkuMDk0LTMuMjcgMS44OTUgMS40ODkgMi4zNjggMy41OTcgMi4yNzUgNS45NzNIMS4xMTZDLjk0MyAxNi40NDcgNC4wMDUgMTkuMDA5IDcuOTIgMTcuN2E0LjA3OCA0LjA3OCAwIDAwMi41ODItMi44NzZjLjIwNy0uNjY2LjU0OC0uNzggMS4xNzQtLjU4OGE1LjQxNyA1LjQxNyAwIDAxLTIuNTg5IDMuOTU3IDYuMjcyIDYuMjcyIDAgMDEtNy4zMDYtLjkzMyA2LjU3NSA2LjU3NSAwIDAxLTEuNjQtMy44NThjMC0uMjM1LS4wOC0uNDU1LS4xMzQtLjY2NkE4OC4zMyA4OC4zMyAwIDAxMCAxMS41Nzd6bTEuMTI3LS4yODZoOS42NTRjLS4wNi0zLjA3Ni0yLjAwMS01LjI1OC00LjU5LTUuMjc4LTIuODgyLS4wNC00Ljk0NCAyLjA5NC01LjA3MSA1LjI2NHoiLz48L3N2Zz4=" />
+                  <text aria-hidden="true" x="515" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="570">express.js</text><text x="515" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="570">express.js</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="20"
+                role="img" aria-label="nestjs">
+                <title>nestjs</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="61" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="61" height="20" fill="#161616" />
+                  <rect width="61" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZXNtb2tlIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TmVzdEpTPC90aXRsZT48cGF0aCBkPSJNMTQuMTMxLjA0N2MtLjE3MyAwLS4zMzQuMDM3LS40ODMuMDg3LjMxNi4yMS40OS40OS41NzYuODA2LjAwNy4wNDMuMDE5LjA3NC4wMjUuMTE3YS42ODEuNjgxIDAgMCAxIC4wMTMuMTEyYy4wMjQuNTQ1LS4xNDMuNjE0LS4yNi45MzYtLjE4LjQxNS0uMTMuODYxLjA4NiAxLjIyYS43NC43NCAwIDAgMCAuMDc0LjEzN2MtLjIzNS0xLjU2OCAxLjA3My0xLjgwMyAxLjMxNC0yLjI5My4wMTktLjQyOC0uMzM0LS43MTMtLjYxMy0uOTExYTEuMzcgMS4zNyAwIDAgMC0uNzMyLS4yMXpNMTYuMTAyLjRjLS4wMjQuMTQzLS4wMDYuMTA2LS4wMTIuMTgtLjAwNi4wNS0uMDA2LjExMi0uMDEyLjE2MS0uMDEzLjA1LS4wMjUuMS0uMDQ0LjE0OS0uMDEyLjA1LS4wMy4xLS4wNS4xNDlsLS4wNjcuMTQyYy0uMDIuMDI1LS4wMzEuMDUtLjA1LjA3NWwtLjAzNy4wNTVhMi4xNTIgMi4xNTIgMCAwIDEtLjA5My4xMjRjLS4wMzcuMDM4LS4wNjguMDgxLS4xMTIuMTEydi4wMDZjLS4wMzcuMDMxLS4wNzQuMDY4LS4xMTguMS0uMTMuMDk5LS4yNzguMTczLS40MTUuMjY2LS4wNDMuMDMtLjA4Ny4wNTYtLjEyNC4wOTNhLjkwNi45MDYgMCAwIDAtLjExOC4wOTljLS4wNDMuMDM3LS4wNzQuMDc0LS4xMTEuMTE4LS4wMzEuMDM3LS4wNjguMDgtLjA5My4xMjRhMS41ODIgMS41ODIgMCAwIDAtLjA4Ny4xM2MtLjAyNS4wNS0uMDQzLjA5My0uMDY4LjE0Mi0uMDE5LjA1LS4wMzcuMDkzLS4wNS4xNDNhMi4wMDcgMi4wMDcgMCAwIDAtLjA0My4xNTVjLS4wMDYuMDI1LS4wMDYuMDU2LS4wMTIuMDgtLjAwNy4wMjUtLjAwNy4wNS0uMDEzLjA3NSAwIC4wNS0uMDA2LjEwNS0uMDA2LjE1NSAwIC4wMzcgMCAuMDc0LjAwNi4xMTEgMCAuMDUuMDA2LjEuMDE5LjE1NS4wMDYuMDUuMDE4LjEuMDMuMTUuMDIuMDQ5LjAzMi4wOTguMDUuMTQ4LjAxMy4wMy4wMzEuMDYyLjA0NC4wODdsLTEuNDI2LS41NTJjLS4yNDEtLjA2OC0uNDc3LS4xMy0uNzE5LS4xODZsLS4zOS0uMDkzYy0uMzcyLS4wNzQtLjc1LS4xMy0xLjEyOC0uMTY3LS4wMTMgMC0uMDE5LS4wMDYtLjAzMS0uMDA2QTExLjA4MiAxMS4wODIgMCAwIDAgOC45IDIuODU1Yy0uMzc4LjAyNS0uNzU2LjA3NC0xLjEzNC4xMzZhMTIuNDUgMTIuNDUgMCAwIDAtLjgzNy4xNzRsLS4yNzkuMDc0Yy0uMDkyLjAzNy0uMTguMDgtLjI2Ni4xMThsLS4yMDUuMDkzYy0uMDEyLjAwNi0uMDI0LjAwNi0uMDMuMDEyLS4wNjMuMDMxLS4xMTguMDU2LS4xNzQuMDg3YTIuNzM4IDIuNzM4IDAgMCAwLS4yMzYuMTE4Yy0uMDQzLjAxOC0uMDg2LjA0My0uMTI0LjA2MmEuNTU5LjU1OSAwIDAgMS0uMDU1LjAzYy0uMDU2LjAzMi0uMTEyLjA2My0uMTYyLjA5NGExLjU2IDEuNTYgMCAwIDAtLjE0OC4wOTNjLS4wNDQuMDMtLjA4Ny4wNTUtLjEyNC4wODYtLjAwNi4wMDctLjAxMy4wMDctLjAxOS4wMTMtLjAzNy4wMjUtLjA4LjA1Ni0uMTE4LjA4N2wtLjAxMi4wMTItLjA5My4wNzRjLS4wMTIuMDA3LS4wMjUuMDE5LS4wMzcuMDI1LS4wMzEuMDI1LS4wNjIuMDU2LS4wOTMuMDgtLjAwNi4wMTMtLjAxOS4wMi0uMDI1LjAyNS0uMDM3LjAzOC0uMDc0LjA2OS0uMTExLjEwNi0uMDA3IDAtLjAwNy4wMDYtLjAxMy4wMTJhMS43NDIgMS43NDIgMCAwIDAtLjExMS4xMDZjLS4wMDcuMDA2LS4wMDcuMDEyLS4wMTMuMDEyYTEuNDU0IDEuNDU0IDAgMCAwLS4wOTMuMWMtLjAxMi4wMTItLjAzLjAyNC0uMDQzLjAzNmExLjM3NCAxLjM3NCAwIDAgMS0uMTA2LjExMmMtLjAwNi4wMTItLjAxOC4wMTktLjAyNC4wMy0uMDUuMDUtLjA5My4xLS4xNDMuMTVsLS4wMTguMDE4Yy0uMS4xMDYtLjIwNS4yMTEtLjMxNy4zMDQtLjExMS4xLS4yMjkuMTkyLS4zNDcuMjczYTMuNzc3IDMuNzc3IDAgMCAxLS43NjIuNDIxYy0uMTMuMDU2LS4yNjcuMTA2LS40MDMuMTQ5LS4yNi4wNTYtLjUyNy4xNjEtLjc1Ni4xOC0uMDUgMC0uMTA1LjAxMi0uMTU1LjAxOGwtLjE1NS4wMzctLjE0OS4wNTZjLS4wNS4wMTktLjA5OS4wNDQtLjE0OC4wNjgtLjA0NC4wMzEtLjA5My4wNTYtLjEzNy4wODdhMS4wMTEgMS4wMTEgMCAwIDAtLjEyNC4xMDZjLS4wNDMuMDMtLjA4Ny4wNzQtLjEyNC4xMTEtLjAzNy4wNDMtLjA3NC4wOC0uMTA1LjEyNC0uMDMxLjA1LS4wNjguMDkzLS4wOTMuMTQzYTEuMDkyIDEuMDkyIDAgMCAwLS4wODcuMTQyYy0uMDI1LjA1Ni0uMDUuMTA2LS4wNjguMTYxLS4wMTkuMDUtLjAzNy4xMDYtLjA1Ni4xNjEtLjAxMi4wNS0uMDI1LjEtLjAzLjE1IDAgLjAwNS0uMDA3LjAxMi0uMDA3LjAxOC0uMDEyLjA1Ni0uMDEyLjEzLS4wMTkuMTY3Qy4wMDYgNy45NSAwIDcuOTg2IDAgOC4wM2EuNjU3LjY1NyAwIDAgMCAuMDc0LjMxdi4wMDZjLjAxOS4wMzcuMDQ0LjA3NS4wNjkuMTEyLjAyNC4wMzcuMDUuMDc0LjA4LjExMS4wMzEuMDMxLjA2OC4wNjkuMTA2LjFhLjkwNi45MDYgMCAwIDAgLjExNy4wOTljLjE0OS4xMy4xODYuMTczLjM3OC4yNzIuMDMxLjAxOS4wNjIuMDMxLjEuMDUuMDA2IDAgLjAxMi4wMDYuMDE4LjAwNiAwIC4wMTMgMCAuMDE5LjAwNi4wMzFhMS4yNzIgMS4yNzIgMCAwIDAgLjA4LjI5OGMuMDIuMDM3LjAzMi4wNzQuMDUuMTExLjAwNy4wMTMuMDEzLjAyNS4wMi4wMzEuMDI0LjA1LjA0OS4wOTMuMDczLjEzN2wuMDkzLjEzYy4wMzEuMDM3LjA2OS4wOC4xMDYuMTE4LjAzNy4wMzcuMDc0LjA2OC4xMTguMTA1IDAgMCAuMDA2LjAwNi4wMTIuMDA2LjAzNy4wMzEuMDc0LjA2Mi4xMTIuMDg3YS45ODYuOTg2IDAgMCAwIC4xMzYuMDhjLjA0My4wMjUuMDkzLjA1LjE0Mi4wNjlhLjczLjczIDAgMCAwIC4xMjQuMDQzYy4wMDcuMDA2LjAxMy4wMDYuMDI1LjAxMi4wMjUuMDA3LjA1Ni4wMTMuMDguMDE5LS4wMTguMzM1LS4wMjQuNjUuMDI2Ljc2Mi4wNTUuMTI0LjMyOC0uMjU0LjYtLjY4OC0uMDM2LjQyOC0uMDYxLjkzIDAgMS4wNzkuMDY5LjE1NS40NC0uMzI5Ljc2My0uODYyIDQuMzk1LTEuMDE2IDguNDA1IDIuMDIgOC44MjYgNi4zMS0uMDgtLjY3LS45MDUtMS4wNDEtMS4yODMtLjk0OC0uMTg2LjQ1OC0uNTAyIDEuMDQ3LTEuMDEgMS40MTMuMDQzLS40MS4wMjUtLjgzLS4wNjItMS4yNGE0LjAwOSA0LjAwOSAwIDAgMS0uNzY5IDEuNTYyYy0uNTg4LjA0My0xLjE3Ny0uMjQyLTEuNDg3LS42Ny0uMDI1LS4wMTgtLjAzMS0uMDU1LS4wNS0uMDgtLjAxOC0uMDQzLS4wMzctLjA4Ny0uMDUtLjEzYS41MTUuNTE1IDAgMCAxLS4wMzctLjEzYy0uMDA2LS4wNDQtLjAwNi0uMDg3LS4wMDYtLjEzN3YtLjA5M2EuOTkyLjk5MiAwIDAgMSAuMDMxLS4xM2MuMDEzLS4wNDMuMDI1LS4wODYuMDQ0LS4xMy4wMjQtLjA0My4wNDMtLjA4Ny4wNzQtLjEzLjEwNS0uMjk4LjEwNS0uNTQtLjA4Ny0uNjgyYS43MDYuNzA2IDAgMCAwLS4xMTgtLjA2MmMtLjAyNC0uMDA2LS4wNTUtLjAxOC0uMDgtLjAyNWwtLjA1LS4wMThhLjg0Ny44NDcgMCAwIDAtLjEzLS4wMzEuNDcyLjQ3MiAwIDAgMC0uMTMtLjAxOSAxLjAxIDEuMDEgMCAwIDAtLjEzNi0uMDEyYy0uMDMxIDAtLjA2Mi4wMDYtLjA5My4wMDZhLjQ4NC40ODQgMCAwIDAtLjEzNy4wMTljLS4wNDMuMDA2LS4wODYuMDEyLS4xMy4wMjRhMS4wNjggMS4wNjggMCAwIDAtLjEzLjA0NGMtLjA0My4wMTgtLjA4LjAzNy0uMTI0LjA1Ni0uMDM3LjAxOC0uMDc0LjA0My0uMTE4LjA2Mi0xLjQ0NC45NDItLjU4MiAzLjE0OC40MDMgMy43ODctLjM3Mi4wNjgtLjc1LjE0OC0uODU1LjIyOWwtLjAxMy4wMTJjLjI2Ny4xNjEuNTQ2LjI5OC44MzcuNDE2LjM5Ny4xMy44MTguMjQ3IDEuMDA0LjI5N3YuMDA2YTUuOTk2IDUuOTk2IDAgMCAwIDEuNTYyLjExMmMyLjc0Ni0uMTkyIDQuOTk2LTIuMjgxIDUuNDA1LTUuMDMzbC4wMzcuMTYxYy4wMTkuMTEyLjA0My4yMy4wNTYuMzQ3di4wMDZjLjAxMi4wNTYuMDE4LjExMi4wMjUuMTYydi4wMjRjLjAwNi4wNTYuMDEyLjExMi4wMTIuMTYyLjAwNi4wNjguMDEyLjEzNi4wMTIuMjA0di4xYzAgLjAzLjAwNy4wNjcuMDA3LjA5OCAwIC4wMzgtLjAwNy4wNzUtLjAwNy4xMTJ2LjA4N2MwIC4wNDMtLjAwNi4wOC0uMDA2LjEyNCAwIC4wMjUgMCAuMDUtLjAwNi4wOCAwIC4wNDQtLjAwNi4wODctLjAwNi4xMzctLjAwNi4wMTgtLjAwNi4wMzctLjAwNi4wNTVsLS4wMi4xNDNjMCAuMDE5IDAgLjAzNy0uMDA1LjA1Ni0uMDA3LjA2Mi0uMDE5LjExOC0uMDI1LjE4di4wMTJsLS4wMzcuMTc0di4wMThsLS4wMzcuMTY3YzAgLjAwNy0uMDA3LjAyLS4wMDcuMDI1YTEuNjYzIDEuNjYzIDAgMCAxLS4wNDMuMTY4di4wMThjLS4wMTkuMDYyLS4wMzcuMTE4LS4wNS4xNzQtLjAwNi4wMDYtLjAwNi4wMTItLjAwNi4wMTJsLS4wNTYuMTg2Yy0uMDI0LjA2Mi0uMDQzLjExOC0uMDY4LjE4LS4wMjUuMDYyLS4wNDMuMTI0LS4wNjguMTgtLjAyNS4wNjItLjA1LjExNy0uMDc0LjE4aC0uMDA3Yy0uMDI0LjA1NS0uMDUuMTE3LS4wOC4xNzNhLjMwMi4zMDIgMCAwIDEtLjAxOS4wNDNjLS4wMDYuMDA2LS4wMDYuMDEzLS4wMTIuMDE5YTUuODY3IDUuODY3IDAgMCAxLTEuNzQyIDIuMDgyYy0uMDUuMDMxLS4wOTkuMDY5LS4xNDkuMTA2LS4wMTIuMDEyLS4wMy4wMTgtLjA0My4wM2EyLjYwMyAyLjYwMyAwIDAgMS0uMTM2LjA5NGwuMDE4LjAzN2guMDA3bC4yNi0uMDM3aC4wMDZjLjE2MS0uMDI1LjMyMi0uMDU2LjQ4My0uMDg3LjA0NC0uMDA2LjA5My0uMDE5LjEzNy0uMDMxbC4wODctLjAxOWMuMDQzLS4wMDYuMDg2LS4wMTguMTMtLjAyNC4wMzctLjAxMy4wNzQtLjAyLjExMS0uMDMxLjYyLS4xNSAxLjIyMS0uMzU0IDEuNzk4LS41OTVhOS45MjYgOS45MjYgMCAwIDEtMy44NSAzLjE0MmMuNzE0LS4wNSAxLjQyNi0uMTY3IDIuMTE0LS4zNjZhOS45MDMgOS45MDMgMCAwIDAgNS44NTctNC42OCA5Ljg5MyA5Ljg5MyAwIDAgMS0xLjY2NyAzLjk4NiA5Ljc1OCA5Ljc1OCAwIDAgMCAxLjY1NS0xLjM3NiA5LjgyNCA5LjgyNCAwIDAgMCAyLjYxLTUuMjY4Yy4yMS45OC4yNzIgMS45OS4xOCAyLjk4NyA0LjQ3NC02LjI0MS4zNzEtMTIuNzEyLTEuMzQ2LTE0LjQxNi0uMDA2LS4wMTMtLjAxMi0uMDE5LS4wMTItLjAzMS0uMDA2LjAwNi0uMDA2LjAwNi0uMDA2LjAxMiAwLS4wMDYgMC0uMDA2LS4wMDctLjAxMiAwIC4wNzQtLjAwNi4xNDgtLjAxMi4yMjNhOC4zNCA4LjM0IDAgMCAxLS4wNjIuNDE1Yy0uMDMuMTM2LS4wNjguMjczLS4xMDUuNDEtLjA0NC4xMy0uMDkzLjI2Ni0uMTUuMzk2YTUuMzIyIDUuMzIyIDAgMCAxLS4xODUuMzc4IDQuNzM1IDQuNzM1IDAgMCAxLS40NzcuNjg4Yy0uMDkzLjExMS0uMTkyLjIxLS4yOTIuMzFhMy45OTQgMy45OTQgMCAwIDEtLjE4LjE1NWwtLjE0Mi4xMjRhMy40NTkgMy40NTkgMCAwIDEtLjM0Ny4yNDEgNC4yOTUgNC4yOTUgMCAwIDEtLjM2Ni4yMTFjLS4xMy4wNjItLjI2LjExOC0uMzkuMTc0YTQuMzY0IDQuMzY0IDAgMCAxLS44MTguMjIzYy0uMTQzLjAyNS0uMjg1LjAzNy0uNDIyLjA1YTQuOTE0IDQuOTE0IDAgMCAxLS4yOTcuMDEyIDQuNjYgNC42NiAwIDAgMS0uNDIyLS4wMjUgMy4xMzcgMy4xMzcgMCAwIDEtLjQyMS0uMDYyIDMuMTM2IDMuMTM2IDAgMCAxLS40MTUtLjEwNWgtLjAwN2MuMTM3LS4wMTMuMjczLS4wMjUuNDEtLjA1YTQuNDkzIDQuNDkzIDAgMCAwIC44MTgtLjIyM2MuMTM2LS4wNS4yNjYtLjExMi4zOS0uMTc0LjEzLS4wNjIuMjQ4LS4xMy4zNzItLjIwNC4xMTgtLjA4LjIzNS0uMTYxLjM0Ny0uMjQ4LjExMi0uMDg3LjIxNy0uMTguMzE2LS4yNzkuMTA1LS4wOTMuMTk4LS4xOTguMjkxLS4zMDQuMDkzLS4xMTEuMTgtLjIyMy4yNi0uMzM0LjAxMy0uMDE5LjAyNi0uMDQ0LjAzOC0uMDYyLjA2Mi0uMS4xMjQtLjE5OS4xOC0uMjk4YTQuMjcyIDQuMjcyIDAgMCAwIC4zMzQtLjc3NWMuMDQ0LS4xMy4wNzUtLjI2Ni4xMDYtLjQwMy4wMjUtLjE0Mi4wNS0uMjc4LjA2Mi0uNDE1LjAxMi0uMTQyLjAyNS0uMjg1LjAyNS0uNDIxIDAtLjEtLjAwNy0uMTk5LS4wMTMtLjI5OGE2LjcyNiA2LjcyNiAwIDAgMC0uMDUtLjQxNSA0LjQ5MyA0LjQ5MyAwIDAgMC0uMDkyLS40MTVjLS4wNDQtLjEzLS4wODctLjI2Ny0uMTM3LS4zOTctLjA1LS4xMy0uMTExLS4yNi0uMTczLS4zODQtLjA2OS0uMTI0LS4xMzctLjI0OC0uMjExLS4zNjZhNi44NDMgNi44NDMgMCAwIDAtLjI0OC0uMzRjLS4wOTMtLjEwNi0uMTg2LS4yMTItLjI4NS0uMzE3YTMuODc4IDMuODc4IDAgMCAwLS4xNjEtLjE1NWMtLjI4LS4yMTctLjU3LS40MjEtLjg2Mi0uNjA3YTEuMTU0IDEuMTU0IDAgMCAwLS4xMjQtLjA2MiAyLjQxNSAyLjQxNSAwIDAgMC0uNTg5LS4yNloiLz48L3N2Zz4=" />
+                  <text aria-hidden="true" x="395" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="330">nestjs</text><text x="395" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="330">nestjs</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69" height="20"
+                role="img" aria-label="FastAPI">
+                <title>FastAPI</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="69" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="69" height="20" fill="#161616" />
+                  <rect width="69" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDA5Njg4IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+RmFzdEFQSTwvdGl0bGU+PHBhdGggZD0iTTEyIDBDNS4zNzUgMCAwIDUuMzc1IDAgMTJjMCA2LjYyNyA1LjM3NSAxMiAxMiAxMiA2LjYyNiAwIDEyLTUuMzczIDEyLTEyIDAtNi42MjUtNS4zNzMtMTItMTItMTJ6bS0uNjI0IDIxLjYydi03LjUyOEg3LjE5TDEzLjIwMyAyLjM4djcuNTI4aDQuMDI5TDExLjM3NiAyMS42MnoiLz48L3N2Zz4=" />
+                  <text aria-hidden="true" x="435" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="410">FastAPI</text><text x="435" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="410">FastAPI</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="20"
+                role="img" aria-label="Gin">
+                <title>Gin</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="47" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="47" height="20" fill="#161616" />
+                  <rect width="47" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDA4RUNGIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R2luPC90aXRsZT48cGF0aCBkPSJNMTEuODM2IDIzLjk3N2MtMi4wNTg3LS4xMDQ2LTMuMzY5OC0uMzU5NC00LjQ2OC0uODY4NC0uMTMxLS4wNjA2LS4xMTUzLS4wMjcyLS4yNzgtLjU5Ni0uMjc1NS0uOTYyNy0uNTUzNC0yLjEyOC0uNzg0OC0zLjI5LS4xMzUtLjY3OC0uMTUzNS0uNzYxNC0uNDcxNi0yLjExNzYtLjUxMDQtMi4xNzYyLS42NDAyLTIuODMxLS44MDQtNC4wNTU3LS4xMDY0LS43OTYyLjEyMjMtMS4zMTU2LjI3NTQtLjYyNTUuNjAyNiAyLjcxNDggMS4xMjQgNC42OTY5IDEuNjc1MyA2LjM2ODQuMTkwMS41NzY0LjE3NTIuNTUyNS4zMzQ3LjUzNy4xMDk1LS4wMTA1LjEwOTctLjAwOTYuMDI3OC4xODExLS4xMTE4LjI2MDQtLjA1NzMuMzk5MS4yOTEzLjc0MDkuMjYxMi4yNTYuMjYzOC4yNzEyLjA0MDcuMjM4Ny0uMTc0LS4wMjU0LS4xNjU1LS4wNDM0LS4xMDIzLjIxMzguMDI5NS4xMTk5LjA4MDkuMzQ0OC4xMTQxLjQ5OTcuMjY0NCAxLjIzMTQuNjA5NCAxLjgzMzYgMS4xMTIxIDEuOTQxIDEuNDY4NC4zMTM5IDMuNjAxMi40NTAyIDUuNDc5NC4zNTAzIDIuMTgxNy0uMTE2IDIuNzAzNy0uMTk4OSAzLjM4MTItLjUzNjguNDU4Mi0uMjI4Ni44NTI4LS42NTY5LjYxMS0uNjYzMi0uMTc4MS0uMDA0Ny0uMTk0OC0uMDQ2NC0uMDQzNy0uMTA5LjMyOS0uMTM2NS40NjgtLjI4MTguNDQxMS0uNDYxMi0uMDA4LS4wNTM1LjAwMjEtLjEwOTQuMDQyMi0uMjMxOC4xMjMyLS4zNzYyLjE0MzktLjY4MjIuMTEyMy0xLjY2NC0uMDE0Ni0uNDU0My0uMDEzNi0uNDg3LjAyMS0uNjU3NC4wOTEyLS40NDkuMTMyLS43ODg2LjE5OS0xLjY1NjQuMDQ3NC0uNjEyNi4wNjI3LS43NjYuMTExOC0xLjExODYuMDQ5MS0uMzUzMi4wNjQ4LS41NTM3LjA5MjktMS4xODY4LjA1NDktMS4yMzg1LjExNi0xLjczMTcuMjI4Ny0xLjg0NDMuMTg4NC0uMTg4NS4xODc0LS4yODktLjAwNi0uNTYzMy0uMjIwNS0uMzEyOS0uMjE5OC0uNDc2NS4wMDMtLjcxMS4xMDg1LS4xMTQyLjExMzItLjI0Mi4wMzkxLTEuMDY1Mi0uMDE5LS4yMTE0LS4wMzk0LS41Mjg0LS4wNDUyLS43MDQ1LS4wMDczLS4yMTctLjAxNjktLjMyMDItLjAyOTctLjMyMDItLjA0MSAwLS4zMDYuMjI2NC0uODg5NC43Ni0uNjYzNS42MDY4LS44MzY4Ljc1LTEuMjA4OS45OTg0LS43Njc0LjUxMjMtMS41MDQyLjc2MzMtMi43Nzg3Ljk0NjItMS4yODY0LjE4NDctMi44MDA4LjE0MTEtMy43OTIyLS4xMDkyLS42NjgxLS4xNjg2LTEuMDU1LS4zNTA3LTEuODA4NS0uODUxMi0uNzA1OC0uNDY4OC0uNjY3NC0xLjIyNzcuMDc5LTEuNTYyNC4zMzYyLS4xNTA3LjA3Ni0uMzE0OS0uNTk4Ni0uMzc3OC0uNTA3NC0uMDQ3NC0uMjQ5NS0uMTQ2MS4zOTk2LS4xNTMuNzg4Ny0uMDA4MyAxLjM0OS0uMjg4NCAyLjA3MzYtMS4wMzYzLjMwMzQtLjMxMzEuMzc0LS4zNzQ2Ljc3ODItLjY3Ny42NDI4LS40ODA4Ljg2OTYtLjY4OTUuOTcyLS44OTQ3LjA3NzYtLjE1NS4wNzMzLS4zMDgyLS4wMDk0LS4zMzk3LS4wMjcxLS4wMTAzLS4wNDA0LS4wMjktLjA0MDQtLjA1NjYgMC0uMDUxNy4xNTcxLS4wNDQyLTIuNTYxNS0uMTIyLTIuODY4Mi0uMDgyMi01LjAzOTUtLjIxMTgtNi4xNDc2LS4zNjctLjIxNjQtLjAzMDQtLjExMzMuMTYxNS4xNTA5LjI4MDYuMDgzNi4wMzc3LjA5MTQuMDcxNC4wMTk4LjA4NTItLjE5NTIuMDM3Ny0uMTg0NC4wMS0uMTI4NC4zMjgzLjIxNzMgMS4yMzUuNTU0OCAxLjU0MTggMS4yMTUyIDEuMTA0Ny4xMzA5LS4wODY2LjE3NjUtLjEwMjcuNDk2MS0uMTc1My43LS4xNTg5IDEuNDU1Ni0uMjQ2NCAyLjU4MzgtLjI5OTMgMS4xNjMzLS4wNTQ1IDEuMjg5Mi0uMDU4OCAxLjMwMzItLjA0NDguMDMwNS4wMzA0LS41NTk5LjExMDEtMS41OTM1LjIxNS0xLjA3LjEwODYtMS40Mjg3LjE1NzctMS45MjYuMjYzOC0uMTM0Mi4wMjg2LS4yODAyLjA1MjEtLjMyNDUuMDUyMi0uMjg5NS4wMDA4LS43MTE0LjI5MzEtLjg2NDQuNTk4OC0uMTkyNi4zODUxLS4wMTUyLjYxNTMuNTEwNy42NjI3LjE3NjEuMDE1OS42MDYzLjA5MjMuNjgyNi4xMjEzLjA2NTguMDI1LjA1MjUuMDY2My0uMDMzNy4xMDQ0LS4wOTMyLjA0MTMtLjA5My4wMzktLjAwODUuMDkyMi4xNjg4LjEwNjYuMDk2OS4wOTk4LS4zNy0uMDM1MS0uNzc4NS0uMjI1LS45MzY4LS4yMzc5LS43MjMtLjA1ODguMTAxNS4wODUuMDk3Mi4xMDk2LS4wMTMyLjA3Ni0uMTcxMi0uMDUxOS0uMTY3Ni0uMDg2NS0uMDYzNi42MDUyLjEzMzIuODg1OC4wMzEuODQxOS0uMTU0NS0uMDY2NS0uMjU1NC0xLjI1LS42Njg2LTIuMzE0NC0uNDg0LTEuMjQ2Ni4wNC4yMzE4LjA4NTMuNDE0Ni4yMTk3Ljg4OC4xODExLjYzOC4yODcyIDEuMjQ5My4yMjM3IDEuMjg4NS0uMDI5Ny4wMTg0LS4xOTA0LS40ODQ0LS4zMDI4LS45NDctLjEyNC0uNTEwMi0uMTc2Ny0uODAwNS0uNDMyOC0yLjM4MjEtLjEyOTgtLjgwMi0uMjQyNS0xLjM0NjQtLjM3OC0xLjgyNjUtLjA3NzMtLjI3MzYtLjA0OTctLjQwMy4xMjgtLjYwMDguMzY0NC0uNDA1MiAxLjI3NDYtLjY1MjggMS4yNzQ2LS4zNDY2IDAgLjE0Ny0uMTg3LjI0NTgtLjY0MzYuMzQwMi0uNTIwNC4xMDc2LS41NjMyLjE3NTEtLjI4OTcuNDU3OC4yNDg2LjI1NjkgMS44MTQyLjQ4MDggMy43MjU0LjUzMjcuMzY2My4wMS45MTE5LjAyNTkgMS4yMTI0LjAzNTQgMi4xMzM5LjA2NzQgNC4zODc3LjA2NjMgNC41MTg0LS4wMDIyLjAxNS0uMDA3OS4wODM3LS4xMDUuMTUyNy0uMjE1OC4yODI1LS40NTQuNTUyLS43OTUuOTQ0NS0xLjE5NTQuMjc4Mi0uMjgzOC4yODY1LS4yOTQyLjI0MTctLjMwNTUtLjEzMi0uMDMzLS4xNDI3LS41NjIxLS4wMTI3LS42MjgyLjIzODMtLjEyMS4zNTQyLS4yOTE4LjcyODMtMS4wNzI1LjE5OC0uNDEzMy4zMDkzLS41OTU1LjQ3NzctLjc4MjUuMTQ1Ny0uMTYxOC4yNTY5LS4zODUuNDIxLS44NDUyLjE2MTQtLjQ1MjQuMjYzOS0uNjYzNS4zNzk5LS43ODIzLjIyMy0uMjI4NS4yMzI0LS4xMDMuMDM2My40OTAzLS4xNjIuNDktLjcxMTEgMS42ODYtMS4xMjY4IDIuNDU0Mi0uMzU1LjY1Ni0uMzA3Ljg0NTEuMTg4MS43NDI3LjA4ODMtLjAxODIuMTcwNi0uMDI0LjI0NjItLjAxNy4xMzA2LjAxMTkuMjcyMy0uMDE3NC42MjEzLS4xMjg0LjI4OTItLjA5Mi4zMjY0LS4wNzY5LjIwMS4wODE4LS4wODkxLjExMjgtLjA4ODcuMTE0Mi4wNTMuMTc5OS4xNDA1LjA2NS4xMzAxLjA3ODMtLjA2MTEuMDc4My0uMjY1IDAtLjQ0OTguMTA1OS0uNDc2Ni4yNzMyLS4wMTE4LjA3NC0uMDExOC4wNzQtLjEyMjYtLjA0NzMtLjMwNTgtLjMzNS0uNjQ1Mi0uMjgwOC0uODUxLjEzNi0uMDcyLjE0NTgtLjE4NTYuMjUyOC0uMjY4NC4yNTI4LS4wNTEzIDAtLjAzOTMtLjAzMzkuMDgyLS4yMzIuMjkzLS40Nzg0LjI5ODUtLjU2MTguMDI4LS40MjQ1LS4zMDguMTU2My0uNzgzNy44MjYxLS44MDMgMS4xMzA4LS4wMTcuMjY1NS4yOTU2LjQwODMuNTMyNy4yNDM0LjkwMTctLjYyNyAxLjM0OC0uODc0OC45Nzk0LS41NDM4LS4wNzY1LjA2ODctLjE1OS4xNDgtLjE4MzIuMTc2Mi0uMTc0NC4yMDI4LS4zMTA2LjI5MzMtLjU2NTYuMzc1Ny0uODQ5My4yNzQ1LS44NDkzLjY1NTggMCAuNjM1NS4yMjY1LS4wMDU1LjQyMjUtLjAwMjIuNDc3NC4wMDc5LjQxMi4wNzU2IDIuMjMzNC0uMjM3OCAzLjE2MTYtLjU0NC41ODc4LS4xOTM4LjY4NDQtLjQyOTMuMzIyOS0uNzg2Ny0uNDY0Ny0uNDU5Mi0uOTU5LS4zNjg0LS42NDY2LjExODkuMTkzNi4zMDItLjM4ODIuNjIzMi0xLjM3MDUuNzU2NS0uNDQyNS4wNi0uNjExMy4wODk4LS43NzM4LjEzNjMtLjExMDguMDMxOC0uNDM3OS4wNzE5LS43MDQuMDg2My0uMzUyMy4wMTktLjQ2NDItLjAyNzQtLjE5MjUtLjA4LjQxNTgtLjA4MDQuNTgyMi0uMTA1IDEuMDc4My0uMTU5OCAxLjMzMDMtLjE0NjggMS43NTkyLS4zNTQ4IDEuNzYyNy0uODU0OC4wMDE5LS4yNzc3LS4yMjI3LS4zMTk4LS44NTA2LS4xNTk4LS4yMDEuMDUxMy0uMjA5My4wMzI0LS4wMjQ4LS4wNTY0LjI4MjEtLjEzNTguMjU5OS0uMjUxOS0uMDcxNy0uMzc0LS4xMTA3LS4wNDA4LS4xMTA3LS4wNDA4LjA1MTYtLjA1MzguNzQyMi0uMDU5NSAxLjEwNDgtLjM1NDYuNzU5My0uNjE4Mi0uMDY3Ny0uMDUxNi0uMDY1Ny0uMDY4NS4wMS0uMDgzNy4wMjktLjAwNTguMDg2LS4wMzQ0LjEyNjYtLjA2MzUuMTYzNC0uMTE3NC4yOTk3LjI0Ni4xNTU2LjQxNDQtLjE5OC4yMzEzLS4wMzU5LjUzMTIuMzU3LjY2MDIuNDAzLjEzMjMuNTg4Ny0uMDUwNi40MjIyLS40MTU4LS4wMy0uMDY1Ny0uMDg5LS4yNTc4LS4xMzEtLjQyNjktLjIzOTgtLjk2MzEtLjc1OTUtMi4wNDA3LS45ODQzLTIuMDQwNy0uMDIxNiAwLS4wMzYtLjAxOTYtLjA0NzUtLjA2NC0uMjE0Ny0uODM0My0uMjg3OC0uOTg5My0uNTM0OC0xLjEzMzMtLjQxOTUtLjI0NDUtLjU1MS0uNjY4Ny0uMTYzNi0uNTI3NS44ODczLjMyMzYgMS44MjIzIDEuNDQ5NCAyLjUzMjUgMy4wNDk1LjU2NTQgMS4yNzQuNjkzMiAzLjE2OC4zMjM5IDQuODAzOS0uMjAzLjg5OTQtLjM2MyAyLjY2NTYtLjU0NjIgNi4wMzAxLS4wNzQ5IDEuMzc0NS0uMTQ5MiAyLjM4ODQtLjIzODUgMy4yNTMyLS4wMjIzLjIxNi0uMDQ1My40Njk2LS4wNTEuNTYzNS0uMDQzOC43MDgtLjIwMzUgMi4wMjc1LS4zNjA3IDIuOTgtLjAzMy4xOTk1LS4wNDczLjM2OTYtLjA1ODUuNjkxNS0uMDQyMiAxLjIyMDQtLjQzMTUgMS44MjI3LTEuMjU4MSAxLjk0NjhhMi43MTg5IDIuNzE4OSAwIDAgMC0uMzI1LjA3NWMtMS4wODAxLjMzMTctMi4xNjYuNDcxLTQuMzQyNS41NTctLjcyOC4wMjg4LS43MDg3LjAyODgtMS4zMDY0LS4wMDE2em0uMjYxNS0uMjM1NmMuMDQ3NC0uMDQ3NC0uMjQxMS0uMDg5Ni0uODg0Ny0uMTI5Ny0uMTY0NC0uMDEwMi0uMzUyNy0uMDI2LS40MTg0LS4wMzUyLS40MTc3LS4wNTgtMS4xNjk4LS4xMDI5LTEuMTY5OC0uMDY5OSAwIC4xMjc2IDIuMzU2NC4zNTE0IDIuNDczLjIzNDh6bS00LjA5NTItLjg2MzRjMC0uMDQwNi0uMzM2NC0xLjM2OTgtLjQwNDQtMS41OTc3LS4xMjUyLS40Mi0uMzc2Ni0xLjAxNTktLjQyMzEtMS4wMDMtLjA2OTcuMDE5Mi4wOTg4LjkwNDMuMjc1NCAxLjQ0Ny4xNzQ0LjUzNTguNTUyMSAxLjMyNTIuNTUyMSAxLjE1Mzd6bS0uNTI0Ni0uMTMwNWMuMDQzMy0uMjc0NS0uMDQxOC0uNjczMi0uMzM1MS0xLjU3MDQtLjE3Ni0uNTM4Mi0uMjM0MS0uNzQxNC0uMjc2LS45NjQxLS4wNDQxLS4yMzU2LS4wNDAyLS4yMjQ4LS4wNzk5LS4yMTg4LS4xNjU1LjAyNDYtLjE1MS4yODUuMDU0Ljk3NTIuMTQ4NC40OTk2LjE2NTQuNTY3My4xODc5Ljc1MDYuMDY0LjUyMDMuNDA1NyAxLjMwMjEuNDQ5IDEuMDI3NXptLS43OTA0LTMuMjgxNmMtLjAwMDEtLjM0MzYtLjA0ODUtLjYyMzQtLjIwNDQtMS4xODI2LS4xNzQ0LS42MjUzLS4yNDM1LS44OTYtLjI4MjUtMS4xMDU4LS4wNzQ1LS40MDE3LS4yMjkyLS42MjEtLjE4MDctLjI1NjQuMDI2LjE5NDguMjE1IDEuMTc5Mi4yNjY1IDEuMzg3OC4wMjMzLjA5NC4wNjE4LjMyNjguMDg1Ny41MTc0LjA2NjIuNTI4Mi4xMDE4LjY3MzQuMTk3LjgwNDkuMDk3Ny4xMzQ3LjExODUuMTA1NS4xMTg0LS4xNjUzem01Ljc4MjMtOC4yMjAxYy4wNDctLjA1MjEuMDM4NC0uMTY1OS0uMDM0OC0uNDU5Mi0uMS0uMzk5OS0uMDk5Ni0uNTg2Mi4wMDEzLS43NDAxLjE3MDctLjI2MDctLjgxNjQtLjM3NjgtMS4zOTgtLjE2NDUtLjUzLjE5MzQtLjY0OC41MTc0LS4zMTkyLjg3Ny4xNjEzLjE3NjYtLjA3NDcuMjcyLS4yOTczLjEyMDMtLjMwNDEtLjIwNzQtLjI3NjYtLjg2MTIuMDM2My0uODYxMi4wMzYyIDAgLjEwNi0uMDczLjEwNi0uMTExIDAtLjA1NjEtLjA2NzQtLjEwMzUtLjIxMS0uMTQ4LS4xOTg0LS4wNjE3LS4xOTc0LS4wNzQxLjAwODUtLjEwOC40ODMyLS4wNzkzLjkzOS0uNDIxOSAxLjY1ODktMS4yNDY3LjkzNS0xLjA3MTQgMS4zMDc1LTEuMzkyNy44MTE2LS43MDAyLS4yNTA0LjM0OTctLjQ1OTkuNTkyLS44NzgzIDEuMDE2LS43NTAxLjc2MDMtLjg0MzQuOTIyMi0uNTMxMy45MjIyLjQ3MiAwIC42ODI2LS4xOTM3IDEuMTE0Mi0xLjAyNDYuNDA3Ni0uNzg0OC42MDg0LS45ODY2Ljg5NjMtLjkwMS4xMjE3LjAzNjIuMTIxLjAzODYtLjIxODYuODc1NC0uMzE0Ljc3MzYtLjI5OTcuOTg2LjA1NDMuODEwNi4xNzY3LS4wODc1LjE3LS4wNzYyLjI0MDMtLjQwOTMuMTczLS44MjA2LjUyOTktMS45NDY4LjYxNy0xLjk0NjguMTE1MyAwIC4wNDYzLjUwNTQtLjE0MjQgMS4wNDE3LS4yODQyLjgwODEtLjI5OCAxLjA2ODYtLjA2ODQgMS4yOTU5LjI1MDEuMjQ3Ni41MzA1LjIwMi43NDc0LS4xMjE2LjA3OTMtLjExODQuMTE0NS0uMTAyMy4xNzYzLjA4MDkuMDQ2LjEzNjMuMDUzNi4xNDA4LjI0NC4xNDM0LjI2MTcuMDAzNy42MTk1LS4wOTEuNjM5Mi0uMTY5LjAwNjQtLjAyNTQuMDIwNi0uMDQwMi4wMzUtLjAzNjQuMTQwOC4wMzY5LjEzODgtLjEwNjUtLjAwMjUtLjE2NzMtLjA5MTgtLjAzOTUtLjA5OTgtLjA2NDUtLjAzMi0uMDk5Mi4xNDk5LS4wNzY0LjMwNjEuMDM4LjMwNjEuMjI0MyAwIC4wNzg0LjAxODYuMDg4NS4yMDUuMTEgMS4yMTc1LjE0MTIgMS45NDk2LS4xNzYgMi4zNjQtMS4wMjQuMDcwNi0uMTQ0NS4yMDUtLjQwODYuMjk5LS41ODcuMzM0OC0uNjM2Ny40NzI2LTEuMTAyNi40MTIxLTEuMzkzOC0uMDM1Mi0uMTY5OS0uMDE2OS0uMTY0LS4zNzkyLS4xMi0xLjg1ODIuMjI1Ni0zLjUyOTIuMzc5NC00LjkzMy40NTQtLjI2NzcuMDE0MS0uNTU1My4wMjk4LS42MzkuMDM0OC0uMTUyNS4wMDktLjE1MjUuMDA5LS40NTI2LjMwMzUtLjQ4NDYuNDc1NC0uOTA0Mi44NjA2LTEuNzAwNSAxLjU2MDYtLjIyNTQuMTk4Mi0uNDMyOS4zODUzLS40NjEuNDE1OC0uMDgwNC4wODY4LS4zNDQyLjI5NTQtLjczNDQuNTgwNi0uODE1LjU5NTctMS4yMzgxIDEuMDU0My0xLjA5NzMgMS4xODkuMTYxMy4xNTQ1IDEuMzcxLjM3NTEgMi4zNzguNDMzOS4xNjkyLjAwOTkuNDAzNS4wMjkuNTIxLjA0MjYuMzA5Ny4wMzYuMzE5LjAzNjcuNDc5Ny4wMzk3LjEyOTYuMDAyNC4xNTA2LS4wMDE1LjE3OTMtLjAzMzN6bTQuOTMzNS0yLjY4ODNjLS42MzUyLS4xMDMtMS4yNDc0LS40NjE2LTEuODgyOC0xLjEwMy0uNDE5LS40MjI4LS4zNzA0LS40NTU3LjIyNTYtLjE1MjQuNDM2Ny4yMjIyLjU5NDQuMjc3Ny43Nzc4LjI3MzQuMDcwNC0uMDAxNy4xNjI2LS4wMDM3LjIwNDktLjAwNDUuMTkwMy0uMDAzOC45MjUyLjQwMTcuODU1MS40NzE4LS4wMjQuMDI0LS4xNTktLjAxOTItLjQxOTYtLjEzNDItLjgzNDctLjM2ODUtMS4zNjg1LS4zNzExLS44MDI2LS4wMDQxLjU5NTMuMzg2MiAxLjI0OTQuNTcxIDEuNjQuNDYzMi4xNDYtLjA0MDIuMTg2LS4wMzkzLjE5MjMuMDA0NC4wMjQyLjE2OTQtLjM0OTMuMjU3LS43OTA3LjE4NTR6bS0zLjUxNjggMi42OTAzYy4wNzQ2LS4wMTg3LjM2MjMtLjA3MjguNjM5NC0uMTIwNCAxLjMxLS4yMjQ3IDEuNjA5Mi0uMzM4OSAyLjQyMjUtLjkyNDMuNTUyLS4zOTcyLjYxOTEtLjc4ODcuMTI1NC0uNzMxLS41NTE3LjA2NDQtLjYxMjUuMTEzMy0uNzc0NS42MjI5LS4xODg1LjU5MzItLjI3Mi42NjUtLjc3NDguNjY1Ni0uNTI3MS4wMDA2LS43Mzk4LS4xODEtLjg4OS0uNzU5Ni0uMDUyOC0uMjA0NS0uMDY3LS4yMjIyLS4yMTY2LS4yNzE1LS41NTU5LS4xODMzLS44MzIxLjE4NTgtLjgzMjIgMS4xMTIgMCAuMTU4Ni0uMDA5Ny4xNjcyLS4xOTI3LjE3MjItLjI5ODEuMDA4MS0uMzMwMy0uMDkxLS4xNTQyLS40NzQ3LjIzMzQtLjUwOS4yNDIzLS42MDg5LjA2MTQtLjY4NTUtLjM5Mi0uMTY1OS0uNzgzMS4yNTQ2LS43MDkxLjc2MjIuMDY2My40NTUxLjM5MzMuNjk1My44MDIzLjU4OTIuMTE2LS4wMzAxLjExNi0uMDMwMS4yMTgyLjAyMjYuMTIzLjA2MzQuMTA2OS4wNjIyLjI3NC4wMjAzem0xLjgyMi0uNzc2OGMuMjMyNy0uMDIwOC4zODc3LS4xODQ4LjM4NzctLjQxMDIgMC0uMzI1OC0uMjgyNS0uNDY4Mi0uNjI5Mi0uMzE3LS4xMDE1LjA0NDItLjEyMjMuMDQ3Ni0uMjA2NC4wMzQtLjM1NzEtLjA1NzUtLjUwMjMuMjM4OC0uMjU0OC41Mi4xNTk0LjE4MTIuMjc5OS4yMTA4LjcwMjYuMTczMnptLTMuMjEwNi0uOTUwMmMuMzczLS4xOTA0LjgzMjctMS4xNjM4LjY4NDMtMS40NDk0LS4wNDM3LS4wODQ0LS4wNTk4LS4wNzY5LS4xNTguMDczNi0uMDQ4LjA3MzQtLjE2NzcuMjQwMi0uMjY2LjM3MDgtLjQ1OC42MDc2LS41Nzc3Ljg2NzItLjQ1NTkuOTg5LjA2MTcuMDYxNy4wOTk4LjA2NDguMTk1Ni4wMTZ6TTEwLjMwMiAyMS4yNjEzYy0uMTAxOC0uMDEzLS40NTUzLS4wNzcyLS43ODU1LS4xNDI2LS42NDM0LS4xMjczLS45MzI2LS4xNzE0LTEuMTIzNC0uMTcxNC0uMTc2MyAwLS4yMTYyLS4wMzQxLS4xNjY5LS4xNDI1LjA1MzYtLjExNzUuMjE3Mi0uMTA1Ljc1NzIuMDU3OS4zNTYxLjEwNzQuNjAyMi4xNjcuNzQzNy4xODAzLjA2MS4wMDU3LjE0OTQuMDIxLjE5NjQuMDMzOC4xMzQ2LjAzNyAxLjIwNTYuMTc3OSAxLjM1MTYuMTc3OS4wMDQ0IDAgLjAwMzMuMDA3Ny0uMDAyNS4wMTctLjAxNTguMDI1Ny0uNzUxLjAxNzctLjk3MDYtLjAxMDR6bTEuNzU4Ny0uNzQ4NGMtLjIyMzEtLjEwOTMtLjI5MjEtLjI1MzctLjM1MTQtLjczNTQtLjA2MjEtLjUwNDUtLjE1OTEtLjY2LS40NTI5LS43MjYzYTQuMDkwOSA0LjA5MDkgMCAwIDEtLjExNTItLjAyNzRjLS4wNDA0LS4wMTEtLjA3MTYtLjE3My0uMDU2NS0uMjkzOS4wMzQtLjI3MjQuMjA0OC0uNDkxNi43MTcyLS45MjAzLjExMjctLjA5NDMuMjM0OC0uMjAyNi4yNzEzLS4yNDA1LjM2MDUtLjM3NDcgMS41MzA2LjEwNTMgMS45ODk0LjgxNi4zMjU4LjUwNDcuMzIyLjYxODUtLjAyOC44NDkyLS40MzE1LjI4NDQtLjQ5MzMuMzY1Ny0uNDg0Ni42MzcyLjAwMy4wODkyLjAwNjUuMjA0NC4wMDguMjU2MS4wMDk1LjMyMzUtLjE3NzEuNDA3NC0uNjQ1Mi4yOS0uMzk2NC0uMDk5NC0uNTIzMi0uMDgzOC0uNjgyOS4wODQyLS4wNTk3LjA2MjgtLjA2MzIuMDYzLS4xNjkyLjAxMTF6bTEuMTM4MS0uMjI1NGMuMzEtLjE1ODYuMzc0OS0uNTUxMi4xNDc0LS44OTItLjI0NC0uMzY1Mi0uNTU5OC0uMjM5My0uNTQ4NS4yMTg3LjAxMzkuNTYzNy4xNTQ0Ljc5OTUuNDAxMS42NzMzem0tLjg2NTctLjA4MjNjLjI0NS0uMTEwNS4zMjYtLjUzNy4xNjY1LS44NzUxLS4xNTU2LS4zMjk3LS40NDYzLS4xMzU1LS41MDE2LjMzNWEzLjcyMTQgMy43MjE0IDAgMCAxLS4wMzMuMjIxNWMtLjA2NzEuMzQ1LjA2Mi40NTY3LjM2ODEuMzE4NnptLS41Mzk3LTEuMTM2N2MuMjcxNC0uMTgxNi41NDItLjE5IDEuMzc0Ny0uMDQzLjQ3NzUuMDg0NS44NjI3LjAyODUuODYyMS0uMTI1My0uMDAyMy0uNTcyNS0uMzQ4My0uNzQyMi0xLjIyOTMtLjYwMy0uNTU0NS4wODc2LS43NTg5LjA4NzktMS4wMDgzLjAwMTYtLjI3NDctLjA5NS0uNjAxNS4xNjUyLS41NTMyLjQ0MDQuMDQ1LjI1NjUuMzcyMS40NTEuNTU0LjMyOTN6bS0yLjAyMzYtLjg4ODJjLTEuMjQyLS4yNjExLTIuMDI5Ny0xLjc0NzctMS4zNzg4LTIuNjAyMi4xOTk1LS4yNjE4LjI2MjQtLjE3MDQuMTIzMi4xNzg5LS41ODA3IDEuNDU3NyAxLjIzMDMgMi44MjI0IDIuNjM1MyAxLjk4NTggMS4wMjctLjYxMTUgMS4wMTQ0LTIuMTA2Ny0uMDIyMS0yLjYxOWEzLjEwNTYgMy4xMDU2IDAgMCAxLS4xOTY0LS4xMTE0Yy0uNDAxNS0uMjQ3LS44NTM0LS4yMzA5LTEuNzE2NS4wNjEyLS41MDQuMTcwNS0uNDg4Ni4xNzA2LS4zMjk2LS4wMDExLjYwNDctLjY1MzIgMS44OTgzLS42MzM1IDIuNjg2NS4wNDEgMS40MzI0IDEuMjI1NS4xMTQyIDMuNDY5NS0xLjgwMTYgMy4wNjY4em01LjAzNzctLjExMjVjLTEuOTU5MS0uMy0yLjYyMDMtMi4xODY3LTEuMTUzNS0zLjI5MTUgMS4zMTA3LS45ODczIDMuMzIyMi0uMDA5NSAzLjI1NzcgMS41ODM2LS4wMzk4Ljk4MTEtMS4xMjA3IDEuODU4NS0yLjEwNDIgMS43MDh6bS40MDEzLS4zMjAzYzEuNTAzMS0uMDIgMi4wMDU5LTEuOTMwNi43MzUtMi43OTM2LS43OTgyLS41NDIxLTIuMDkyNy0uMjk1LTIuNTU1Mi40ODc2LS41NDIuOTE3MS4wNDc0IDIuMTQ2NyAxLjExMTUgMi4zMTg1LjAyODIuMDA0NS4xNDczLjAwNDMuMjY0Ny0uMDAwNi4xMTc0LS4wMDUuMzE3Mi0uMDEwMy40NDQtLjAxMnptLTEuNTA0LS44MzU2Yy0uNDQwMi0uMTI0NS0uNTA5NS0uNjU0NC0uMTM4MS0xLjA1NjYuMzM1NS0uMzYzMy44MTctLjIwNjIgMS4wMTgyLjMzMjIuMDg5Mi4yMzg3LjA1OC4yNzQ4LS4yMjI1LjI1ODEtLjE3OTMtLjAxMDYtLjI2MzkuMDAyNS0uMjYzNS4wNDEgMCAuMDA2Ny4wNjAzLjA1NjYuMTM0LjExMDkuMjE5Ny4xNjIuMjI0Ny4yMTUzLjAyNjcuMjgzNi0uMTQ0LjA0OTctLjQzMTYuMDY1Ny0uNTU0OC4wMzA4em0tNC42NTM1LjEwNzJjLS40NjYzLS4wNDQ0LS42MzA2LS4yOTcyLS40NDE4LS42NzkzLjIyNC0uNDUzLjczMi0uNTg1NSAxLjAxNDYtLjI2NDUuNDI3Ni40ODU4LjExMDIgMS4wMDg4LS41NzI4Ljk0Mzh6TTUuMjYwOSA0Ljg5NGMtLjAwNjEtLjAxLjAwODgtLjA0NjUuMDMzMS0uMDgxMS4wMjQzLS4wMzQ3LjA2NDEtLjA5MTMuMDg4NS0uMTI1OC4wMjQzLS4wMzQ1LjA0ODMtLjA5MzkuMDUzNC0uMTMyLjAwNTgtLjA0My4wMTk3LS4wNzIyLjAzNy0uMDc3NS4wNzA2LS4wMjE0LjY4OTMtLjE0ODYuOTQ5OC0uMTk1My42Njk0LS4xMi44NTEtLjEzMiAyLjM2NTItLjE1NiAyLjgxLS4wNDQ1IDMuODg1MS0uMDggNC45MjQ2LS4xNjI2LjM1NzYtLjAyODQuMzM4Ny0uMDMyMS40MjMzLjA4NDMuMTMzMS4xODMzLjAxNjMuMzExLS4zMzc3LjM2OTMtLjQyNTIuMDY5OS0yLjEzNzguMDI1OC0yLjU5MzktLjA2NjgtLjQ4MzctLjA5ODMtLjYzNi0uMDkzMS0uNzc1NS4wMjY0LS4wODEyLjA2OTQtLjA2MzMuMDY5Ni0uMjc3NS0uMDAxOC0uMjctLjA5LS41MDctLjExODYtLjg3NjYtLjEwNi0uMzAwMi4wMTAzLS40MTcuMDIzNi0xLjEzNTcuMTI5LS4xOTI1LjAyODMtLjQ2MTUuMDU5OS0uNTk3Ni4wNzAxLS40NzIzLjAzNTYtMS4wMTMuMTM1Ni0xLjc1NjIuMzI1LS40OTc4LjEyNjctLjUwNy4xMjg1LS41MjQyLjEwMDhabTExLjk5Ny0xLjIwODFjMC0uMDg1NC4xMTAyLS4yMDkuNTk1LS42Njc4LjI2OTEtLjI1NDcuNDYzOC0uNDgxNS40NjM4LS41NDAxIDAtLjA1NTYuMDQ3Ny0uMDU5OC4wNjY1LS4wMDYuMTA0NC4yOTk2LS4xMDY4LjU5Ny0uNjk4My45ODMzYTMxLjEzMyAzMS4xMzMgMCAwIDAtLjMyMDcuMjExNWMtLjA4NDcuMDU3OC0uMTA2Mi4wNjE3LS4xMDYyLjAxOXoiLz48L3N2Zz4=" />
+                  <text aria-hidden="true" x="325" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="190">Gin</text><text x="325" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="190">Gin</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="20"
+                role="img" aria-label="GraphQL">
+                <title>GraphQL</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="77" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="77" height="20" fill="#161616" />
+                  <rect width="77" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZXNtb2tlIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+R3JhcGhRTDwvdGl0bGU+PHBhdGggZD0iTTEyLjAwMiAwYTIuMTM4IDIuMTM4IDAgMSAwIDAgNC4yNzcgMi4xMzggMi4xMzggMCAxIDAgMC00LjI3N3ptOC41NCA0LjkzMWEyLjEzOCAyLjEzOCAwIDEgMCAwIDQuMjc3IDIuMTM4IDIuMTM4IDAgMSAwIDAtNC4yNzd6bTAgOS44NjJhMi4xMzggMi4xMzggMCAxIDAgMCA0LjI3NyAyLjEzOCAyLjEzOCAwIDEgMCAwLTQuMjc3em0tOC41NCA0LjkzMWEyLjEzOCAyLjEzOCAwIDEgMCAwIDQuMjc2IDIuMTM4IDIuMTM4IDAgMSAwIDAtNC4yNzZ6bS04LjU0Mi00LjkzYTIuMTM4IDIuMTM4IDAgMSAwIDAgNC4yNzYgMi4xMzggMi4xMzggMCAxIDAgMC00LjI3N3ptMC05Ljg2M2EyLjEzOCAyLjEzOCAwIDEgMCAwIDQuMjc3IDIuMTM4IDIuMTM4IDAgMSAwIDAtNC4yNzd6bTguNTQyLTMuMzc4TDIuOTUzIDYuNzc3djEwLjQ0OGw5LjA0OSA1LjIyNCA5LjA0Ny01LjIyNFY2Ljc3N3ptMCAxLjYwMSA3LjY2IDEzLjI3SDQuMzR6bS0xLjM4Ny4zNzFMMy45NyAxNS4wMzdWNy4zNjN6bTIuNzc0IDAgNi42NDYgMy44Mzh2Ny42NzR6TTUuMzU1IDE3LjQ0aDEzLjI5M2wtNi42NDYgMy44MzZ6Ii8+PC9zdmc+" />
+                  <text aria-hidden="true" x="475" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="490">GraphQL</text><text x="475" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="490">GraphQL</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="79" height="20"
+                role="img" aria-label="Socket.io">
+                <title>Socket.io</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="79" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="79" height="20" fill="#161616" />
+                  <rect width="79" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZXNtb2tlIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+U29ja2V0LmlvPC90aXRsZT48cGF0aCBkPSJNMTEuOTM2Mi4wMTM3YTEyLjE2OTQgMTIuMTY5NCAwIDAwLTIuOTc0OC4zNzhDNC4yODE2IDEuNTU0Ny41Njc4IDUuNzk0NC4wOTE4IDEwLjYwMTJjLS41OSA0LjU0ODggMS43MDc5IDkuMjg1NiA1LjY0MzcgMTEuNjM0NSAzLjg2MDggMi40MTc5IDkuMDkyNiAyLjMxOTkgMTIuODczNC0uMjIzIDMuMzk2OS0yLjIwNiA1LjUxMTgtNi4yMjc3IDUuMzg1OC0xMC4yODQ1LS4wNTgtNC4wMTU5LTIuMzEtNy45MTY3LTUuNzU4OC05Ljk3OTZDMTYuMzU0LjU4NzYgMTQuMTQzMS4wMDQ3IDExLjkzNjIuMDEzN3ptLS4wNjMgMS42OTZjNC45NDQ4LS4wMDcgOS43ODg2IDMuODEzNyAxMC4yODE1IDguOTI0NS45NDUgNS42NTk3LTMuNzUyOCAxMS40MTI1LTkuNDg3NSAxMS41Nzk1LTUuNDUzOC41NDQtMTAuNzI0NS00LjA3OTgtMTAuODc5NS05LjU1NjYtLjQwNy00LjQzMzggMi41MTU5LTguODM0NiA2LjY5NzctMTAuMjk5NWE5LjExMjYgOS4xMTI2IDAgMDEzLjM4NzgtLjY0N3ptNS4wOTA4IDMuMjI0OGMtMi42ODY5IDIuMDg0OS01LjI1OTggNC4zMDc4LTcuODg4NiA2LjQ1NjcgMS4yMDI5LjAxNyAyLjQxMTguMDE2IDMuNjIwOC4wMSAxLjQxLTIuMTY1IDIuODU4OS00LjMwMDggNC4yNjc4LTYuNDY2N3ptLTUuNjY0NyA3LjY1MzZjLTEuNDEgMi4xNjYtMi44NiA0LjMwODgtNC4yNjk5IDYuNDczNyAyLjY5My0yLjA3OTkgNS4yNTQ4LTQuMzE5OCA3LjkwMTctNi40NTU3YTI1NS40MTMyIDI1NS40MTMyIDAgMDAtMy42MzE4LS4wMTh6Ii8+PC9zdmc+" />
+                  <text aria-hidden="true" x="485" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="510">Socket.io</text><text x="485" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="510">Socket.io</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="55" height="20"
+                role="img" aria-label="tRPC">
+                <title>tRPC</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="55" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="55" height="20" fill="#161616" />
+                  <rect width="55" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMjU5NkJFIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+dFJQQzwvdGl0bGU+PHBhdGggZD0iTTI0IDEyYzAgNi42Mi01LjM4IDEyLTEyIDEyUzAgMTguNjIgMCAxMiA1LjM4IDAgMTIgMHMxMiA1LjM4IDEyIDEyWk0xLjIxIDEyQTEwLjc4IDEwLjc4IDAgMCAwIDEyIDIyLjc5IDEwLjc4IDEwLjc4IDAgMCAwIDIyLjc5IDEyIDEwLjc4IDEwLjc4IDAgMCAwIDEyIDEuMjEgMTAuNzggMTAuNzggMCAwIDAgMS4yMSAxMlptMTAuOTE1LTYuMDg2IDIuMTYyIDEuMjQ4YS4yNS4yNSAwIDAgMSAuMTI1LjIxN3YxLjEwM2wyLjQ3MyAxLjQyOGEuMjUuMjUgMCAwIDEgLjEyNS4yMTd2Mi4zNTVsLjk1NS41NTFhLjI1LjI1IDAgMCAxIC4xMjUuMjE3djIuNDk2YS4yNS4yNSAwIDAgMS0uMTI1LjIxN2wtMi4xNjIgMS4yNDhhLjI1LjI1IDAgMCAxLS4yNSAwbC0uOTU2LS41NTItMi40NzIgMS40MjdhLjI1LjI1IDAgMCAxLS4yNSAwbC0yLjQ3Mi0xLjQyNy0uOTU2LjU1MmEuMjUuMjUgMCAwIDEtLjI1IDBsLTIuMTYyLTEuMjQ4YS4yNS4yNSAwIDAgMS0uMTI1LS4yMTdWMTMuMjVhLjI1LjI1IDAgMCAxIC4xMjUtLjIxN2wuOTU1LS41NTF2LTIuMzU1YS4yNS4yNSAwIDAgMSAuMTI1LS4yMTdsMi40NzMtMS40MjhWNy4zOGEuMjUuMjUgMCAwIDEgLjEyNS0uMjE3bDIuMTYyLTEuMjQ4YS4yNS4yNSAwIDAgMSAuMjUgMFptMS4yNjggMTAuMDQ5YS4yNS4yNSAwIDAgMS0uMTI1LS4yMTdWMTMuMjVhLjI1LjI1IDAgMCAxIC4xMjUtLjIxN2wyLjE2LTEuMjQ4YS4yNS4yNSAwIDAgMSAuMjUgMGwuNzA3LjQwOHYtMS45MjJsLTIuMDk4LTEuMjF2LjgxNGEuMjUuMjUgMCAwIDEtLjEyNS4yMTdsLTIuMTYyIDEuMjQ4YS4yNS4yNSAwIDAgMS0uMjUgMGwtMi4xNjItMS4yNDhhLjI1LjI1IDAgMCAxLS4xMjUtLjIxN1Y5LjA2TDcuNDkgMTAuMjcxdjEuOTIybC43MDctLjQwOGEuMjUuMjUgMCAwIDEgLjI1IDBsMi4xNiAxLjI0OGEuMjUuMjUgMCAwIDEgLjEyNS4yMTd2Mi40OTZhLjI1LjI1IDAgMCAxLS4xMjUuMjE3bC0uNzA1LjQwOEwxMiAxNy41ODJsMi4wOTgtMS4yMTFaTTEwLjA4OCA5LjczbDEuNjYyLjk2VjguNzY2bC0xLjY2Mi0uOTU1Wm0zLjgyNCAwVjcuODExbC0xLjY2Mi45NTV2MS45MjRaTTEyIDYuNDE4bC0xLjY2Ljk2IDEuNjYuOTU0IDEuNjYtLjk1NFptLTUuNTkgOS4xODQgMS42Ni45NTh2LTEuOTIxbC0xLjY2LS45NTZabTMuODIyIDB2LTEuOTJsLTEuNjYyLjk1N3YxLjkyM1ptLTEuOTEtMy4zMTEtMS42NjIuOTYgMS42NjEuOTU1IDEuNjYtLjk1NlptNS40NDYgMy4zMSAxLjY2Ljk2di0xLjkyMmwtMS42Ni0uOTU2Wm0zLjgyMiAwdi0xLjkxOGwtMS42NjIuOTU2djEuOTIyWm0tMS45MTItMy4zMS0xLjY2Ljk2IDEuNjYuOTU1IDEuNjYtLjk1NloiLz48L3N2Zz4=" />
+                  <text aria-hidden="true" x="365" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="270">tRPC</text><text x="365" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="270">tRPC</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59" height="20"
+                role="img" aria-label="redux">
+                <title>redux</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="59" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="59" height="20" fill="#161616" />
+                  <rect width="59" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZXNtb2tlIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UmVkdXg8L3RpdGxlPjxwYXRoIGQ9Ik0xNi42MzQgMTYuNTA0Yy44Ny0uMDc1IDEuNTQzLS44NCAxLjUtMS43NTQtLjA0Ny0uOTE0LS43OTYtMS42NDgtMS43MDktMS42NDhoLS4wNjFhMS43MSAxLjcxIDAgMDAtMS42NDggMS43NjljLjAzLjQ3OS4yMjYuODY5LjQ5NCAxLjE1My0xLjA0OCAyLjAzOC0yLjYyMSAzLjUzNi01LjAwNSA0Ljc5NS0xLjYwMy44MzgtMy4yOTYgMS4xNTQtNC45NDQuOTMtMS4zNzgtLjE5NS0yLjQ1Ni0uODEtMy4xMTYtMS43OTktLjk4OC0xLjQ5OS0xLjA3OC0zLjExNi0uMjU1LTQuNzM0LjYtMS4xNyAxLjQ5OS0yLjAyMyAyLjA5OS0yLjQ0M2E5Ljk2IDkuOTYgMCAwMS0uNDItMS41NDNDLS44NjggMTQuNDA4LS40MTYgMTguNzUyLjkzMiAyMC44MDVjMS4wMDQgMS40OTggMy4wNTcgMi40NTYgNS4zMDQgMi40NTYuNiAwIDEuMjMtLjA0NCAxLjg0My0uMTk0IDMuODk3LS43NDkgNi44NDgtMy4wODYgOC41NDEtNi41MzJ6bTUuMzQ4LTMuNzQ2Yy0yLjMyLTIuNzI4LTUuNzM4LTQuMjI2LTkuNjM0LTQuMjI2aC0uNTFjLS4yNTMtLjU1NC0uODM3LS44OTktMS40OTgtLjg5OWgtLjA0NWMtLjk0MyAwLTEuNjc4LjgxLTEuNjQ3IDEuNzUzLjAzLjg5OC43OTQgMS42NDggMS43MDggMS42NDhoLjA3NGExLjY5IDEuNjkgMCAwMDEuNDk5LTEuMDQ5aC41NTVjMi4zMDkgMCA0LjQ5NS42NzQgNi40ODggMS45OTIgMS41MjcgMS4wMDUgMi42MjIgMi4zMjMgMy4yMzcgMy44OTcuNTM4IDEuMjg4LjUwOSAyLjU0Ny0uMDQ1IDMuNTk3LS44NTUgMS42NDctMi4yOTQgMi41MTctNC4xOTYgMi41MTctMS4xOTkgMC0yLjM2Ny0uMzc1LTIuOTY3LS42NDQtLjM2LjI5OC0uOTYuNzkzLTEuMzk0IDEuMDkzIDEuMzE4LjU5OCAyLjY1Mi45NDMgMy45NC45NDMgMi45MjIgMCA1LjA5NC0xLjY0NyA1LjkxOS0zLjIzNi44OTgtMS43OTguODI0LTQuODI0LTEuNDctNy40MTZ6TTYuNDkgMTcuMDQyYy4wMy44OTkuNzkzIDEuNjQ4IDEuNzA4IDEuNjQ4aC4wNmExLjY4OCAxLjY4OCAwIDAwMS42NDgtMS43NjhjMC0uOS0uNzc5LTEuNjQ3LTEuNjkzLTEuNjQ3aC0uMDZjLS4wNiAwLS4xNSAwLS4yMjYuMDI5LTEuMjQzLTIuMDk4LTEuNzY4LTQuMzQ3LTEuNTcyLTYuNzcyLjEyLTEuODI4LjcyLTMuNDE3IDEuNzk3LTQuNzM1LjktMS4xMjQgMi41OTMtMS42OCAzLjc0Ny0xLjcwOCAzLjIzNi0uMDYxIDQuNTg1IDMuOTcxIDQuNjg5IDUuNTc0bDEuNDk4LjQ1QzE3Ljc0MSAzLjE5NyAxNC42ODYuNjIgMTEuNzY0LjYyIDkuMDIuNjIgNi40OSAyLjYxMyA1LjQ3IDUuNTM1IDQuMDc3IDkuNDMgNC45OTEgMTMuMTc3IDYuNyAxNi4xNzRjLS4xNS4xOTUtLjI0LjUzOS0uMjEuODY4eiIvPjwvc3ZnPg==" />
+                  <text aria-hidden="true" x="385" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="310">redux</text><text x="385" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="310">redux</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71" height="20"
+                role="img" aria-label="zustand">
+                <title>zustand</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="71" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="71" height="20" fill="#161616" />
+                  <rect width="71" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNjFEQUZCIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UmVhY3Q8L3RpdGxlPjxwYXRoIGQ9Ik0xNC4yMyAxMi4wMDRhMi4yMzYgMi4yMzYgMCAwIDEtMi4yMzUgMi4yMzYgMi4yMzYgMi4yMzYgMCAwIDEtMi4yMzYtMi4yMzYgMi4yMzYgMi4yMzYgMCAwIDEgMi4yMzUtMi4yMzYgMi4yMzYgMi4yMzYgMCAwIDEgMi4yMzYgMi4yMzZ6bTIuNjQ4LTEwLjY5Yy0xLjM0NiAwLTMuMTA3Ljk2LTQuODg4IDIuNjIyLTEuNzgtMS42NTMtMy41NDItMi42MDItNC44ODctMi42MDItLjQxIDAtLjc4My4wOTMtMS4xMDYuMjc4LTEuMzc1Ljc5My0xLjY4MyAzLjI2NC0uOTczIDYuMzY1QzEuOTggOC45MTcgMCAxMC40MiAwIDEyLjAwNGMwIDEuNTkgMS45OSAzLjA5NyA1LjA0MyA0LjAzLS43MDQgMy4xMTMtLjM5IDUuNTg4Ljk4OCA2LjM4LjMyLjE4Ny42OS4yNzUgMS4xMDIuMjc1IDEuMzQ1IDAgMy4xMDctLjk2IDQuODg4LTIuNjI0IDEuNzggMS42NTQgMy41NDIgMi42MDMgNC44ODcgMi42MDMuNDEgMCAuNzgzLS4wOSAxLjEwNi0uMjc1IDEuMzc0LS43OTIgMS42ODMtMy4yNjMuOTczLTYuMzY1QzIyLjAyIDE1LjA5NiAyNCAxMy41OSAyNCAxMi4wMDRjMC0xLjU5LTEuOTktMy4wOTctNS4wNDMtNC4wMzIuNzA0LTMuMTEuMzktNS41ODctLjk4OC02LjM4LS4zMTgtLjE4NC0uNjg4LS4yNzctMS4wOTItLjI3OHptLS4wMDUgMS4wOXYuMDA2Yy4yMjUgMCAuNDA2LjA0NC41NTguMTI3LjY2Ni4zODIuOTU1IDEuODM1LjczIDMuNzA0LS4wNTQuNDYtLjE0Mi45NDUtLjI1IDEuNDQtLjk2LS4yMzYtMi4wMDYtLjQxNy0zLjEwNy0uNTM0LS42Ni0uOTA1LTEuMzQ1LTEuNzI3LTIuMDM1LTIuNDQ3IDEuNTkyLTEuNDggMy4wODctMi4yOTIgNC4xMDUtMi4yOTV6bS05Ljc3LjAyYzEuMDEyIDAgMi41MTQuODA4IDQuMTEgMi4yOC0uNjg2LjcyLTEuMzcgMS41MzctMi4wMiAyLjQ0Mi0xLjEwNy4xMTctMi4xNTQuMjk4LTMuMTEzLjUzOC0uMTEyLS40OS0uMTk1LS45NjQtLjI1NC0xLjQyLS4yMy0xLjg2OC4wNTQtMy4zMi43MTQtMy43MDcuMTktLjA5LjQtLjEyNy41NjMtLjEzMnptNC44ODIgMy4wNWMuNDU1LjQ2OC45MS45OTIgMS4zNiAxLjU2NC0uNDQtLjAyLS44OS0uMDM0LTEuMzQ1LS4wMzQtLjQ2IDAtLjkxNS4wMS0xLjM2LjAzNC40NC0uNTcyLjg5NS0xLjA5NiAxLjM0NS0xLjU2NXpNMTIgOC4xYy43NCAwIDEuNDc3LjAzNCAyLjIwMi4wOTMuNDA2LjU4Mi44MDIgMS4yMDMgMS4xODMgMS44Ni4zNzIuNjQuNzEgMS4yOSAxLjAxOCAxLjk0Ni0uMzA4LjY1NS0uNjQ2IDEuMzEtMS4wMTMgMS45NS0uMzguNjYtLjc3MyAxLjI4OC0xLjE4IDEuODctLjcyOC4wNjMtMS40NjYuMDk4LTIuMjEuMDk4LS43NCAwLTEuNDc3LS4wMzUtMi4yMDItLjA5My0uNDA2LS41ODItLjgwMi0xLjIwNC0xLjE4My0xLjg2LS4zNzItLjY0LS43MS0xLjI5LTEuMDE4LTEuOTQ2LjMwMy0uNjU3LjY0Ni0xLjMxMyAxLjAxMy0xLjk1NC4zOC0uNjYuNzczLTEuMjg2IDEuMTgtMS44NjguNzI4LS4wNjQgMS40NjYtLjA5OCAyLjIxLS4wOTh6bS0zLjYzNS4yNTRjLS4yNC4zNzctLjQ4Ljc2My0uNzA0IDEuMTYtLjIyNS4zOS0uNDM1Ljc4Mi0uNjM1IDEuMTc0LS4yNjUtLjY1Ni0uNDktMS4zMS0uNjc2LTEuOTQ3LjY0LS4xNSAxLjMxNS0uMjgzIDIuMDE1LS4zODZ6bTcuMjYgMGMuNjk1LjEwMyAxLjM2NS4yMyAyLjAwNi4zODctLjE4LjYzMi0uNDA1IDEuMjgyLS42NiAxLjkzMy0uMi0uMzktLjQxLS43ODMtLjY0LTEuMTc0LS4yMjUtLjM5Mi0uNDY1LS43NzQtLjcwNS0xLjE0NnptMy4wNjMuNjc1Yy40ODQuMTUuOTQ0LjMxNyAxLjM3NS40OTggMS43MzIuNzQgMi44NTIgMS43MDggMi44NTIgMi40NzYtLjAwNS43NjgtMS4xMjUgMS43NC0yLjg1NyAyLjQ3NS0uNDIuMTgtLjg4LjM0Mi0xLjM1NS40OTMtLjI4LS45NTgtLjY0Ni0xLjk1Ni0xLjEtMi45OC40NS0xLjAxNy44MS0yLjAxIDEuMDg1LTIuOTY0em0tMTMuMzk1LjAwNGMuMjc4Ljk2LjY0NSAxLjk1NyAxLjEgMi45OC0uNDUgMS4wMTctLjgxMiAyLjAxLTEuMDg2IDIuOTY0LS40ODQtLjE1LS45NDQtLjMxOC0xLjM3LS41LTEuNzMyLS43MzctMi44NTItMS43MDYtMi44NTItMi40NzQgMC0uNzY4IDEuMTItMS43NDIgMi44NTItMi40NzYuNDItLjE4Ljg4LS4zNDIgMS4zNTYtLjQ5NHptMTEuNjc4IDQuMjhjLjI2NS42NTcuNDkgMS4zMTIuNjc2IDEuOTQ4LS42NC4xNTctMS4zMTYuMjktMi4wMTYuMzkuMjQtLjM3NS40OC0uNzYyLjcwNS0xLjE1OC4yMjUtLjM5LjQzNS0uNzg4LjYzNi0xLjE4em0tOS45NDUuMDJjLjIuMzkyLjQxLjc4My42NCAxLjE3NS4yMy4zOS40NjUuNzcyLjcwNSAxLjE0My0uNjk1LS4xMDItMS4zNjUtLjIzLTIuMDA2LS4zODYuMTgtLjYzLjQwNi0xLjI4Mi42Ni0xLjkzM3pNMTcuOTIgMTYuMzJjLjExMi40OTMuMi45NjguMjU0IDEuNDIzLjIzIDEuODY4LS4wNTQgMy4zMi0uNzE0IDMuNzA4LS4xNDcuMDktLjMzOC4xMjgtLjU2My4xMjgtMS4wMTIgMC0yLjUxNC0uODA3LTQuMTEtMi4yOC42ODYtLjcyIDEuMzctMS41MzYgMi4wMi0yLjQ0IDEuMTA3LS4xMTggMi4xNTQtLjMgMy4xMTMtLjU0em0tMTEuODMuMDFjLjk2LjIzNCAyLjAwNi40MTUgMy4xMDcuNTMyLjY2LjkwNSAxLjM0NSAxLjcyNyAyLjAzNSAyLjQ0Ni0xLjU5NSAxLjQ4My0zLjA5MiAyLjI5NS00LjExIDIuMjk1LS4yMi0uMDA1LS40MDYtLjA1LS41NTMtLjEzMi0uNjY2LS4zOC0uOTU1LTEuODM0LS43My0zLjcwMy4wNTQtLjQ2LjE0Mi0uOTQ0LjI1LTEuNDM4em00LjU2LjY0Yy40NC4wMi44OS4wMzQgMS4zNDUuMDM0LjQ2IDAgLjkxNS0uMDEgMS4zNi0uMDM0LS40NC41NzItLjg5NSAxLjA5NS0xLjM0NSAxLjU2NS0uNDU1LS40Ny0uOTEtLjk5My0xLjM2LTEuNTY1eiIvPjwvc3ZnPg==" />
+                  <text aria-hidden="true" x="445" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="430">zustand</text><text x="445" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="430">zustand</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="69" height="20"
+                role="img" aria-label="node.js">
+                <title>node.js</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="69" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="69" height="20" fill="#161616" />
+                  <rect width="69" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMzM5OTMzIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+Tm9kZS5qczwvdGl0bGU+PHBhdGggZD0iTTExLjk5OCwyNGMtMC4zMjEsMC0wLjY0MS0wLjA4NC0wLjkyMi0wLjI0N2wtMi45MzYtMS43MzdjLTAuNDM4LTAuMjQ1LTAuMjI0LTAuMzMyLTAuMDgtMC4zODMgYzAuNTg1LTAuMjAzLDAuNzAzLTAuMjUsMS4zMjgtMC42MDRjMC4wNjUtMC4wMzcsMC4xNTEtMC4wMjMsMC4yMTgsMC4wMTdsMi4yNTYsMS4zMzljMC4wODIsMC4wNDUsMC4xOTcsMC4wNDUsMC4yNzIsMGw4Ljc5NS01LjA3NiBjMC4wODItMC4wNDcsMC4xMzQtMC4xNDEsMC4xMzQtMC4yMzhWNi45MjFjMC0wLjA5OS0wLjA1My0wLjE5Mi0wLjEzNy0wLjI0MmwtOC43OTEtNS4wNzJjLTAuMDgxLTAuMDQ3LTAuMTg5LTAuMDQ3LTAuMjcxLDAgTDMuMDc1LDYuNjhDMi45OSw2LjcyOSwyLjkzNiw2LjgyNSwyLjkzNiw2LjkyMXYxMC4xNWMwLDAuMDk3LDAuMDU0LDAuMTg5LDAuMTM5LDAuMjM1bDIuNDA5LDEuMzkyIGMxLjMwNywwLjY1NCwyLjEwOC0wLjExNiwyLjEwOC0wLjg5VjcuNzg3YzAtMC4xNDIsMC4xMTQtMC4yNTMsMC4yNTYtMC4yNTNoMS4xMTVjMC4xMzksMCwwLjI1NSwwLjExMiwwLjI1NSwwLjI1M3YxMC4wMjEgYzAsMS43NDUtMC45NSwyLjc0NS0yLjYwNCwyLjc0NWMtMC41MDgsMC0wLjkwOSwwLTIuMDI2LTAuNTUxTDIuMjgsMTguNjc1Yy0wLjU3LTAuMzI5LTAuOTIyLTAuOTQ1LTAuOTIyLTEuNjA0VjYuOTIxIGMwLTAuNjU5LDAuMzUzLTEuMjc1LDAuOTIyLTEuNjAzbDguNzk1LTUuMDgyYzAuNTU3LTAuMzE1LDEuMjk2LTAuMzE1LDEuODQ4LDBsOC43OTQsNS4wODJjMC41NywwLjMyOSwwLjkyNCwwLjk0NCwwLjkyNCwxLjYwMyB2MTAuMTVjMCwwLjY1OS0wLjM1NCwxLjI3My0wLjkyNCwxLjYwNGwtOC43OTQsNS4wNzhDMTIuNjQzLDIzLjkxNiwxMi4zMjQsMjQsMTEuOTk4LDI0eiBNMTkuMDk5LDEzLjk5MyBjMC0xLjktMS4yODQtMi40MDYtMy45ODctMi43NjNjLTIuNzMxLTAuMzYxLTMuMDA5LTAuNTQ4LTMuMDA5LTEuMTg3YzAtMC41MjgsMC4yMzUtMS4yMzMsMi4yNTgtMS4yMzMgYzEuODA3LDAsMi40NzMsMC4zODksMi43NDcsMS42MDdjMC4wMjQsMC4xMTUsMC4xMjksMC4xOTksMC4yNDcsMC4xOTloMS4xNDFjMC4wNzEsMCwwLjEzOC0wLjAzMSwwLjE4Ni0wLjA4MSBjMC4wNDgtMC4wNTQsMC4wNzQtMC4xMjMsMC4wNjctMC4xOTZjLTAuMTc3LTIuMDk4LTEuNTcxLTMuMDc2LTQuMzg4LTMuMDc2Yy0yLjUwOCwwLTQuMDA0LDEuMDU4LTQuMDA0LDIuODMzIGMwLDEuOTI1LDEuNDg4LDIuNDU3LDMuODk1LDIuNjk1YzIuODgsMC4yODIsMy4xMDMsMC43MDMsMy4xMDMsMS4yNjljMCwwLjk4My0wLjc4OSwxLjQwMi0yLjY0MiwxLjQwMiBjLTIuMzI3LDAtMi44MzktMC41ODQtMy4wMTEtMS43NDJjLTAuMDItMC4xMjQtMC4xMjYtMC4yMTUtMC4yNTMtMC4yMTVoLTEuMTM3Yy0wLjE0MSwwLTAuMjU0LDAuMTEyLTAuMjU0LDAuMjUzIGMwLDEuNDgyLDAuODA2LDMuMjQ4LDQuNjU1LDMuMjQ4QzE3LjUwMSwxNy4wMDcsMTkuMDk5LDE1LjkxLDE5LjA5OSwxMy45OTN6Ii8+PC9zdmc+" />
+                  <text aria-hidden="true" x="435" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="410">node.js</text><text x="435" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="410">node.js</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="49" height="20"
+                role="img" aria-label="Bun">
+                <title>Bun</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="49" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="49" height="20" fill="#161616" />
+                  <rect width="49" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZXNtb2tlIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+QnVuPC90aXRsZT48cGF0aCBkPSJNMTIgMjIuNTk2YzYuNjI4IDAgMTItNC4zMzggMTItOS42ODggMC0zLjMxOC0yLjA1Ny02LjI0OC01LjIxOS03Ljk4Ni0xLjI4Ni0uNzE1LTIuMjk3LTEuMzU3LTMuMTM5LTEuODlDMTQuMDU4IDIuMDI1IDEzLjA4IDEuNDA0IDEyIDEuNDA0Yy0xLjA5NyAwLTIuMzM0Ljc4NS0zLjk2NiAxLjgyMWE0OS45MiA0OS45MiAwIDAgMS0yLjgxNiAxLjY5N0MyLjA1NyA2LjY2IDAgOS41OSAwIDEyLjkwOGMwIDUuMzUgNS4zNzIgOS42ODcgMTIgOS42ODd2LjAwMVpNMTAuNTk5IDQuNzE1Yy4zMzQtLjc1OS41MDMtMS41OC40OTgtMi40MDkgMC0uMTQ1LjIwMi0uMTg3LjIzLS4wMjkuNjU4IDIuNzgzLS45MDIgNC4xNjItMi4wNTcgNC42MjQtLjEyNC4wNDgtLjE5OS0uMTIxLS4xMDMtLjIwOWE1Ljc2MyA1Ljc2MyAwIDAgMCAxLjQzMi0xLjk3N1ptMi4wNTgtLjEwMmE1LjgyIDUuODIgMCAwIDAtLjc4Mi0yLjMwNnYtLjAxNmMtLjA2OS0uMTIzLjA4Ni0uMjYzLjE4NS0uMTcyIDEuOTYyIDIuMTExIDEuMzA3IDQuMDY3LjU1NiA1LjA1MS0uMDgyLjEwMy0uMjMtLjAwMy0uMTg5LS4xMjZhNS44NSA1Ljg1IDAgMCAwIC4yMy0yLjQzMVptMS43NzYtLjU2MWE1LjcyNyA1LjcyNyAwIDAgMC0xLjYxMi0xLjgwNnYtLjAxNGMtLjExMi0uMDg1LS4wMjQtLjI3NC4xMTQtLjIxOCAyLjU5NSAxLjA4NyAyLjc3NCAzLjE4IDIuNDU5IDQuNDA3YS4xMTYuMTE2IDAgMCAxLS4wNDkuMDcxLjExLjExIDAgMCAxLS4xNTMtLjAyNi4xMjIuMTIyIDAgMCAxLS4wMjItLjA4MyA1Ljg5MSA1Ljg5MSAwIDAgMC0uNzM3LTIuMzMxWm0tNS4wODcuNTYxYy0uNjE3LjU0Ni0xLjI4Mi43Ni0yLjA2MyAxLS4xMTcgMC0uMTk1LS4wNzgtLjE1Ni0uMTgxIDEuNzUyLS45MDkgMi4zNzYtMS42NDkgMi45OTktMi43NzggMCAwIC4xNTUtLjExOC4xODguMDg1IDAgLjMwNC0uMzQ5IDEuMzI5LS45NjggMS44NzRabTQuOTQ1IDExLjIzN2EyLjk1NyAyLjk1NyAwIDAgMS0uOTM3IDEuNTUzYy0uMzQ2LjM0Ni0uOC41NjUtMS4yODYuNjJhMi4xNzggMi4xNzggMCAwIDEtMS4zMjctLjYyIDIuOTU1IDIuOTU1IDAgMCAxLS45MjUtMS41NTMuMjQ0LjI0NCAwIDAgMSAuMDY0LS4xOTguMjM0LjIzNCAwIDAgMSAuMTkzLS4wNjloMy45NjVhLjIyNi4yMjYgMCAwIDEgLjE5LjA3Yy4wNS4wNTMuMDczLjEyNS4wNjMuMTk3Wm0tNS40NTgtMi4xNzZhMS44NjIgMS44NjIgMCAwIDEtMi4zODQtLjI0NSAxLjk4IDEuOTggMCAwIDEtLjIzMy0yLjQ0N2MuMjA3LS4zMTkuNTAzLS41NjYuODQ4LS43MTNhMS44NCAxLjg0IDAgMCAxIDEuMDkyLS4xMWMuMzY2LjA3NS43MDMuMjYxLjk2Ny41MzFhMS45OCAxLjk4IDAgMCAxIC40MDggMi4xMTQgMS45MzEgMS45MzEgMCAwIDEtLjY5OC44Njl2LjAwMVptOC40OTUuMDA1YTEuODYgMS44NiAwIDAgMS0yLjM4MS0uMjUzIDEuOTY0IDEuOTY0IDAgMCAxLS41NDctMS4zNjZjMC0uMzg0LjExLS43Ni4zMi0xLjA3OS4yMDctLjMxOS41MDMtLjU2Ny44NDktLjcxM2ExLjg0NCAxLjg0NCAwIDAgMSAxLjA5My0uMTA4Yy4zNjcuMDc2LjcwNC4yNjIuOTY4LjUzNGExLjk4IDEuOTggMCAwIDEgLjQgMi4xMTcgMS45MzIgMS45MzIgMCAwIDEtLjcwMi44NjhaIi8+PC9zdmc+" />
+                  <text aria-hidden="true" x="335" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="210">Bun</text><text x="335" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="210">Bun</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="75" height="20"
+                role="img" aria-label="postgres">
+                <title>postgres</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="75" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="75" height="20" fill="#161616" />
+                  <rect width="75" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNDE2OUUxIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UG9zdGdyZVNRTDwvdGl0bGU+PHBhdGggZD0iTTIzLjU1OTQgMTQuNzIyOGEuNTI2OS41MjY5IDAgMCAwLS4wNTYzLS4xMTkxYy0uMTM5LS4yNjMyLS40NzY4LS4zNDE4LTEuMDA3NC0uMjMyMS0xLjY1MzMuMzQxMS0yLjI5MzUuMTMxMi0yLjUyNTYtLjAxOTEgMS4zNDItMi4wNDgyIDIuNDQ1LTQuNTIyIDMuMDQxMS02LjgyOTcuMjcxNC0xLjA1MDcuNzk4Mi0zLjUyMzcuMTIyMi00LjczMTZhMS41NjQxIDEuNTY0MSAwIDAgMC0uMTUwOS0uMjM1QzIxLjY5MzEuOTA4NiAxOS44MDA3LjAyNDggMTcuNTA5OS4wMDA1Yy0xLjQ5NDctLjAxNTgtMi43NzA1LjM0NjEtMy4xMTYxLjQ3OTRhOS40NDkgOS40NDkgMCAwIDAtLjUxNTktLjA4MTYgOC4wNDQgOC4wNDQgMCAwIDAtMS4zMTE0LS4xMjc4Yy0xLjE4MjItLjAxODQtMi4yMDM4LjI2NDItMy4wNDk4Ljg0MDYtLjg1NzMtLjMyMTEtNC43ODg4LTEuNjQ1LTcuMjIxOS4wNzg4Qy45MzU5IDIuMTUyNi4zMDg2IDMuODczMy40MzAyIDYuMzA0M2MuMDQwOS44MTguNTA2OSAzLjMzNCAxLjI0MjMgNS43NDM2LjQ1OTggMS41MDY1LjkzODcgMi43MDE5IDEuNDMzNCAzLjU4Mi41NTMuOTk0MiAxLjEyNTkgMS41OTMzIDEuNzE0MyAxLjc4OTUuNDQ3NC4xNDkxIDEuMTMyNy4xNDQxIDEuODU4MS0uNzI3OS44MDEyLS45NjM1IDEuNTkwMy0xLjgyNTggMS45NDQ2LTIuMjA2OS40MzUxLjIzNTUuOTA2NC4zNjI1IDEuMzkuMzc3MmEuMDU2OS4wNTY5IDAgMCAwIC4wMDA0LjAwNDEgMTEuMDMxMiAxMS4wMzEyIDAgMCAwLS4yNDcyLjMwNTRjLS4zMzg5LjQzMDItLjQwOTQuNTE5Ny0xLjUwMDIuNzQ0My0uMzEwMi4wNjQtMS4xMzQ0LjIzMzktMS4xNDY0LjgxMTUtLjAwMjUuMTIyNC4wMzI5LjIzMDkuMDkxOS4zMjY4LjIyNjkuNDIzMS45MjE2LjYwOTcgMS4wMTUuNjMzMSAxLjMzNDUuMzMzNSAyLjUwNDQuMDkyIDMuMzcxNC0uNjc4Ny0uMDE3IDIuMjMxLjA3NzUgNC40MTc0LjM0NTQgNS4wODc0LjIyMTIuNTUyOS43NjE4IDEuOTA0NSAyLjQ2OTIgMS45MDQzLjI1MDUgMCAuNTI2My0uMDI5MS44Mjk2LS4wOTQxIDEuNzgxOS0uMzgyMSAyLjU1NTctMS4xNjk2IDIuODU1LTIuOTA1OS4xNTAzLS44NzA3LjQwMTYtMi44NzUzLjUzODgtNC4xMDEyLjAxNjktLjA3MDMuMDM1Ny0uMTIwNy4wNTctLjEzNjIuMDAwNy0uMDAwNS4wNjk3LS4wNDcxLjQyNzIuMDMwN2EuMzY3My4zNjczIDAgMCAwIC4wNDQzLjAwNjhsLjI1MzkuMDIyMy4wMTQ5LjAwMWMuODQ2OC4wMzg0IDEuOTExNC0uMTQyNiAyLjUzMTItLjQzMDguNjQzOC0uMjk4OCAxLjgwNTctMS4wMzIzIDEuNTk1MS0xLjY2OTh6TTIuMzcxIDExLjg3NjVjLS43NDM1LTIuNDM1OC0xLjE3NzktNC44ODUxLTEuMjEyMy01LjU3MTktLjEwODYtMi4xNzE0LjQxNzEtMy42ODI5IDEuNTYyMy00LjQ5MjcgMS44MzY3LTEuMjk4NiA0LjgzOTgtLjU0MDggNi4xMDgtLjEzLS4wMDMyLjAwMzItLjAwNjYuMDA2MS0uMDA5OC4wMDk0LTIuMDIzOCAyLjA0NC0xLjk3NTggNS41MzYtMS45NzA4IDUuNzQ5NS0uMDAwMi4wODIzLjAwNjYuMTk4OS4wMTYyLjM1OTMuMDM0OC41ODczLjA5OTYgMS42ODA0LS4wNzM1IDIuOTE4NC0uMTYwOSAxLjE1MDQuMTkzNyAyLjI3NjQuOTcyOCAzLjA4OTIuMDgwNi4wODQxLjE2NDguMTYzMS4yNTE4LjIzNzQtLjM0NjguMzcxNC0xLjEwMDQgMS4xOTI2LTEuOTAyNSAyLjE1NzYtLjU2NzcuNjgyNS0uOTU5Ny41NTE3LTEuMDg4Ni41MDg3LS4zOTE5LS4xMzA3LS44MTMtLjU4NzEtMS4yMzgxLTEuMzIyMy0uNDc5Ni0uODM5LS45NjM1LTIuMDMxNy0xLjQxNTUtMy41MTI2em02LjAwNzIgNS4wODcxYy0uMTcxMS0uMDQyOC0uMzI3MS0uMTEzMi0uNDMyMi0uMTc3Mi4wODg5LS4wMzk0LjIzNzQtLjA5MDIuNDgzMy0uMTQwOSAxLjI4MzMtLjI2NDEgMS40ODE1LS40NTA2IDEuOTE0My0xLjAwMDIuMDk5Mi0uMTI2LjIxMTYtLjI2ODcuMzY3My0uNDQyNmEuMzU0OS4zNTQ5IDAgMCAwIC4wNzM3LS4xMjk4Yy4xNzA4LS4xNTEzLjI3MjQtLjEwOTkuNDM2OS0uMDQxNy4xNTYuMDY0Ni4zMDc4LjI2LjM2OTUuNDc1Mi4wMjkxLjEwMTYuMDYxOS4yOTQ1LS4wNDUyLjQ0NDQtLjkwNDMgMS4yNjU4LTIuMjIxNiAxLjI0OTQtMy4xNjc2IDEuMDEyOHptMi4wOTQtMy45ODgtLjA1MjUuMTQxYy0uMTMzLjM1NjYtLjI1NjcuNjg4MS0uMzMzNCAxLjAwMy0uNjY3NC0uMDAyMS0xLjMxNjgtLjI4NzItMS44MTA1LS44MDI0LS42Mjc5LS42NTUxLS45MTMxLTEuNTY2NC0uNzgyNS0yLjUwMDQuMTgyOC0xLjMwNzkuMTE1My0yLjQ0NjguMDc5LTMuMDU4Ni0uMDA1LS4wODU3LS4wMDk1LS4xNjA3LS4wMTIyLS4yMTk5LjI5NTctLjI2MjEgMS42NjU5LS45OTYyIDIuNjQyOS0uNzcyNC40NDU5LjEwMjIuNzE3Ni40MDU3LjgzMDUuOTI4LjU4NDYgMi43MDM4LjA3NzQgMy44MzA3LS4zMzAyIDQuNzM2My0uMDg0LjE4NjYtLjE2MzMuMzYyOS0uMjMxMS41NDU0em03LjM2MzcgNC41NzI1Yy0uMDE2OS4xNzY4LS4wMzU4LjM3Ni0uMDYxOC41OTU5bC0uMTQ2LjQzODNhLjM1NDcuMzU0NyAwIDAgMC0uMDE4Mi4xMDc3Yy0uMDA1OS40NzQ3LS4wNTQuNjQ4OS0uMTE1Ljg2OTMtLjA2MzQuMjI5Mi0uMTM1My40ODkxLS4xNzk0IDEuMDU3NS0uMTEgMS40MTQzLS44NzgyIDIuMjI2Ny0yLjQxNzIgMi41NTY1LTEuNTE1NS4zMjUxLTEuNzg0My0uNDk2OC0yLjAyMTItMS4yMjE3YTYuNTgyNCA2LjU4MjQgMCAwIDAtLjA3NjktLjIyNjZjLS4yMTU0LS41ODU4LS4xOTExLTEuNDExOS0uMTU3NC0yLjU1NTEuMDE2NS0uNTYxMi0uMDI0OS0xLjkwMTMtLjMzMDItMi42NDYyLjAwNDQtLjI5MzIuMDEwNi0uNTkwOS4wMTktLjg5MThhLjM1MjkuMzUyOSAwIDAgMC0uMDE1My0uMTEyNiAxLjQ5MjcgMS40OTI3IDAgMCAwLS4wNDM5LS4yMDhjLS4xMjI2LS40MjgzLS40MjEzLS43ODY2LS43Nzk3LS45MzUxLS4xNDI0LS4wNTktLjQwMzgtLjE2NzItLjcxNzgtLjA4NjkuMDY3LS4yNzYuMTgzMS0uNTg3NS4zMDktLjkyNDlsLjA1MjktLjE0MmMuMDU5NS0uMTYuMTM0LS4zMjU3LjIxMy0uNTAxMi40MjY1LS45NDc2IDEuMDEwNi0yLjI0NTMuMzc2Ni01LjE3NzItLjIzNzQtMS4wOTgxLTEuMDMwNC0xLjYzNDMtMi4yMzI0LTEuNTA5OC0uNzIwNy4wNzQ2LTEuMzc5OS4zNjU0LTEuNzA4OC41MzIxYTUuNjcxNiA1LjY3MTYgMCAwIDAtLjE5NTguMTA0MWMuMDkxOC0xLjEwNjQuNDM4Ni0zLjE3NDEgMS43MzU3LTQuNDgyM2E0LjAzMDYgNC4wMzA2IDAgMCAxIC4zMDMzLS4yNzYuMzUzMi4zNTMyIDAgMCAwIC4xNDQ3LS4wNjQ0Yy43NTI0LS41NzA2IDEuNjk0NS0uODUwNiAyLjgwMi0uODMyNS40MDkxLjAwNjcuODAxNy4wMzM5IDEuMTc0Mi4wODEgMS45MzkuMzU0NCAzLjI0MzkgMS40NDY4IDQuMDM1OSAyLjM4MjcuODE0My45NjIzIDEuMjU1MiAxLjkzMTUgMS40MzEyIDIuNDU0My0xLjMyMzItLjEzNDYtMi4yMjM0LjEyNjgtMi42Nzk3Ljc3OS0uOTkyNiAxLjQxODkuNTQzIDQuMTcyOSAxLjI4MTEgNS40OTY0LjEzNTMuMjQyNi4yNTIyLjQ1MjIuMjg4OS41NDEzLjI0MDMuNTgyNS41NTE1Ljk3MTMuNzc4NyAxLjI1NTIuMDY5Ni4wODcuMTM3Mi4xNzE0LjE4ODUuMjQ1LS40MDA4LjExNTUtMS4xMjA4LjM4MjUtMS4wNTUyIDEuNzE3LS4wMTIzLjE1NjMtLjA0MjMuNDQ2OS0uMDgzNC44MTQ4LS4wNDYxLjIwNzctLjA3MDIuNDYwMy0uMDk5NC43NjYyem0uODkwNS0xLjYyMTFjLS4wNDA1LS44MzE2LjI2OTEtLjkxODUuNTk2Ny0xLjAxMDVhMi44NTY2IDIuODU2NiAwIDAgMCAuMTM1LS4wNDA2IDEuMjAyIDEuMjAyIDAgMCAwIC4xMzQyLjEwM2MuNTcwMy4zNzY1IDEuNTgyMy40MjEzIDMuMDA2OC4xMzQ0LS4yMDE2LjE3NjktLjUxODkuMzk5NC0uOTUzMy42MDExLS40MDk4LjE5MDMtMS4wOTU3LjMzMy0xLjc0NzMuMzYzNi0uNzE5Ny4wMzM2LTEuMDg1OS0uMDgwNy0xLjE3MjEtLjE1MXptLjU2OTUtOS4yNzEyYy0uMDA1OS4zNTA4LS4wNTQyLjY2OTItLjEwNTQgMS4wMDE3LS4wNTUuMzU3Ni0uMTEyLjcyNzQtLjEyNjQgMS4xNzYyLS4wMTQyLjQzNjguMDQwNC44OTA5LjA5MzIgMS4zMzAxLjEwNjYuODg3LjIxNiAxLjgwMDMtLjIwNzUgMi43MDE0YTMuNTI3MiAzLjUyNzIgMCAwIDEtLjE4NzYtLjM4NTZjLS4wNTI3LS4xMjc2LS4xNjY5LS4zMzI2LS4zMjUxLS42MTYyLS42MTU2LTEuMTA0MS0yLjA1NzQtMy42ODk2LTEuMzE5My00Ljc0NDYuMzc5NS0uNTQyNyAxLjM0MDgtLjU2NjEgMi4xNzgxLS40NjN6bS4yMjg0IDcuMDEzN2ExMi4zNzYyIDEyLjM3NjIgMCAwIDAtLjA4NTMtLjEwNzRsLS4wMzU1LS4wNDQ0Yy43MjYyLTEuMTk5NS41ODQyLTIuMzg2Mi40NTc4LTMuNDM4NS0uMDUxOS0uNDMxOC0uMTAwOS0uODM5Ni0uMDg4NS0xLjIyMjYuMDEyOS0uNDA2MS4wNjY2LS43NTQzLjExODUtMS4wOTExLjA2MzktLjQxNS4xMjg4LS44NDQzLjExMDktMS4zNTA1LjAxMzQtLjA1MzEuMDE4OC0uMTE1OC4wMTE4LS4xOTAyLS4wNDU3LS40ODU1LS41OTk5LTEuOTM4LTEuNzI5NC0zLjI1My0uNjA3Ni0uNzA3My0xLjQ4OTYtMS40OTcyLTIuNjg4OS0yLjAzOTUuNTI1MS0uMTA2NiAxLjIzMjgtLjIwMzUgMi4wMjQ0LS4xODU5IDIuMDUxNS4wNDU2IDMuNjc0Ni44MTM1IDQuODI0MiAyLjI4MjRhLjkwOC45MDggMCAwIDEgLjA2NjcuMTAwMmMuNzIzMSAxLjM1NTYtLjI3NjIgNi4yNzUxLTIuOTg2NyAxMC41NDA1em0tOC44MTY2LTYuMTE2MmMtLjAyNS4xNzk0LS4zMDg5LjQyMjUtLjYyMTEuNDIyNWEuNTgyMS41ODIxIDAgMCAxLS4wODA5LS4wMDU2Yy0uMTg3My0uMDI2LS4zNzY1LS4xNDQtLjUwNTktLjMxNTYtLjA0NTgtLjA2MDUtLjEyMDMtLjE3OC0uMTA1NS0uMjg0NC4wMDU1LS4wNDAxLjAyNjEtLjA5ODUuMDkyNS0uMTQ4OC4xMTgyLS4wODk0LjM1MTgtLjEyMjYuNjA5Ni0uMDg2Ny4zMTYzLjA0NDEuNjQyNi4xOTM4LjYxMTMuNDE4NnptNy45MzA1LS40MTE0Yy4wMTExLjA3OTItLjA0OS4yMDEtLjE1MzEuMzEwMi0uMDY4My4wNzE3LS4yMTIuMTk2MS0uNDA3OS4yMjMyYS41NDU2LjU0NTYgMCAwIDEtLjA3NS4wMDUyYy0uMjkzNSAwLS41NDE0LS4yMzQ0LS41NjA3LS4zNzE3LS4wMjQtLjE3NjUuMjY0MS0uMzEwNi41NjExLS4zNTIuMjk3LS4wNDE0LjYxMTEuMDA4OC42MzU2LjE4NTF6Ii8+PC9zdmc+" />
+                  <text aria-hidden="true" x="465" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="470">postgres</text><text x="465" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="470">postgres</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="61" height="20"
+                role="img" aria-label="mysql">
+                <title>mysql</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="61" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="61" height="20" fill="#161616" />
+                  <rect width="61" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNDQ3OUExIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TXlTUUw8L3RpdGxlPjxwYXRoIGQ9Ik0xNi40MDUgNS41MDFjLS4xMTUgMC0uMTkzLjAxNC0uMjc0LjAzM3YuMDEzaC4wMTRjLjA1NC4xMDQuMTQ2LjE4LjIxNC4yNzMuMDU0LjEwNy4xLjIxNC4xNTQuMzJsLjAxNC0uMDE1Yy4wOTQtLjA2Ni4xNC0uMTcyLjE0LS4zMzMtLjA0LS4wNDctLjA0Ni0uMDk0LS4wOC0uMTQtLjA0LS4wNjctLjEyNi0uMS0uMTgtLjE1M3pNNS43NyAxOC42OTVoLS45MjdhNTAuODU0IDUwLjg1NCAwIDAwLS4yNy00LjQxaC0uMDA4bC0xLjQxIDQuNDFIMi40NWwtMS40LTQuNDFoLS4wMWE3Mi44OTIgNzIuODkyIDAgMDAtLjE5NSA0LjQxSDBjLjA1NS0xLjk2Ni4xOTItMy44MS40MS01LjUzaDEuMTVsMS4zMzUgNC4wNjRoLjAwOGwxLjM0Ny00LjA2NGgxLjA5NWMuMjQyIDIuMDE1LjM4NCAzLjg2LjQyOCA1LjUzem00LjAxNy00LjA4Yy0uMzc4IDIuMDQ1LS44NzYgMy41MzMtMS40OTIgNC40Ni0uNDgyLjcxNi0xLjAxIDEuMDczLTEuNTgzIDEuMDczLS4xNTMgMC0uMzQtLjA0Ni0uNTY2LS4xMzh2LS40OTRjLjExLjAxNy4yNC4wMjYuMzg2LjAyNi4yNjggMCAuNDgzLS4wNzUuNjQ3LS4yMjIuMTk3LS4xOC4yOTUtLjM4Mi4yOTUtLjYwNSAwLS4xNTUtLjA3Ny0uNDctLjIzLS45NDRMNi4yMyAxNC42MTVoLjkxbC43MjcgMi4zNmMuMTY0LjUzNi4yMzMuOTEuMjA1IDEuMTIzLjQtMS4wNjQuNjc4LTIuMjI3LjgzNS0zLjQ4M3ptMTIuMzI1IDQuMDhoLTIuNjN2LTUuNTNoLjg4NXY0Ljg1aDEuNzQ1em0tMy4zMi4xMzVsLTEuMDE2LS41Yy4wOS0uMDc2LjE3Ny0uMTU4LjI1NS0uMjUuNDMzLS41MDYuNjQ4LTEuMjU4LjY0OC0yLjI1MyAwLTEuODMtLjcxOC0yLjc0Ni0yLjE1NS0yLjc0Ni0uNzA0IDAtMS4yNTQuMjMyLTEuNjUuNjk3LS40My41MDgtLjY0NiAxLjI1Ni0uNjQ2IDIuMjQ1IDAgLjk3Mi4xOSAxLjY4Ni41NzQgMi4xNC4zNS40MS44NzcuNjE1IDEuNTgzLjYxNS4yNjQgMCAuNTA2LS4wMzMuNzI1LS4wOThsMS4zMjUuNzcyLjM2LS42MjJ6TTE1LjUgMTcuNTg4Yy0uMjI1LS4zNi0uMzM3LS45NC0uMzM3LTEuNzM2IDAtMS4zOTMuNDI0LTIuMDkgMS4yNy0yLjA5LjQ0MyAwIC43Ny4xNjcuOTc3LjUuMjI0LjM2Mi4zMzYuOTM2LjMzNiAxLjcyMyAwIDEuNDA0LS40MjQgMi4xMDgtMS4yNyAyLjEwOC0uNDQ1IDAtLjc3LS4xNjctLjk3OC0uNXptLTEuNjU4LS40MjVjMCAuNDctLjE3Mi44NTYtLjUxNiAxLjE1Ni0uMzQ0LjMtLjgwMy40NS0xLjM4NC40NS0uNTQzIDAtMS4wNjQtLjE3Mi0xLjU3My0uNTE1bC4yMzctLjQ3NmMuNDM4LjIyLjgzMy4zMjggMS4xOS4zMjguMzMyIDAgLjU5My0uMDczLjc4My0uMjJhLjc1NC43NTQgMCAwMC4zLS42MTVjMC0uMzMtLjIzLS42MS0uNjQ4LS44NDUtLjM4OC0uMjEzLTEuMTYzLS42NTctMS4xNjMtLjY1Ny0uNDIyLS4zMDctLjYzMi0uNjM2LS42MzItMS4xNzcgMC0uNDUuMTU3LS44MS40Ny0xLjA4NS4zMTUtLjI3OC43Mi0uNDE1IDEuMjItLjQxNS41MTIgMCAuOTguMTM2IDEuNC40MWwtLjIxMy40NzZhMi43MjYgMi43MjYgMCAwMC0xLjA2NC0uMjNjLS4yODMgMC0uNTAyLjA2OC0uNjU0LjIwNmEuNjg1LjY4NSAwIDAwLS4yNDguNTI0YzAgLjMyOC4yMzQuNjEuNjY2Ljg1LjM5My4yMTUgMS4xODcuNjcgMS4xODcuNjcuNDMzLjMwNS42NDguNjMuNjQ4IDEuMTY4em05LjM4Mi01Ljg1MmMtLjUzNS0uMDE0LS45NS4wNC0xLjI5Ny4xODgtLjEuMDQtLjI2LjA0LS4yNzQuMTY3LjA1NS4wNTMuMDYzLjE0LjExLjIxNC4wOC4xMzQuMjE4LjMxMy4zNDYuNDA3LjE0LjExLjI4LjIxNi40MjcuMzEuMjYuMTYuNTU1LjI1NS44MS40MTYuMTQ1LjA5NC4yOTMuMjEzLjQ0LjMxMy4wNzMuMDUuMTIuMTQuMjE0LjE3MnYtLjAyYy0uMDQ2LS4wNi0uMDYtLjE0Ny0uMTA1LS4yMTQtLjA2Ny0uMDY3LS4xMzQtLjEyNy0uMi0uMTkzYTMuMjIzIDMuMjIzIDAgMDAtLjY5NS0uNjc1Yy0uMjE0LS4xNDYtLjY4Mi0uMzUtLjc3LS41OTVsLS4wMTMtLjAxNGMuMTQ2LS4wMTMuMzItLjA2Ni40Ni0uMTA2LjIyNy0uMDYuNDM1LS4wNDcuNjctLjEwNi4xMDYtLjAyNy4yMTMtLjA2LjMyLS4wOTR2LS4wNmMtLjEyLS4xMi0uMjEtLjI4My0uMzM0LS4zOTVhOC44NjcgOC44NjcgMCAwMC0xLjEwNC0uODIzYy0uMjEtLjEzNC0uNDc2LS4yMi0uNjk3LS4zMzQtLjA4LS4wNC0uMjE0LS4wNi0uMjYtLjEyNy0uMTItLjE0Ni0uMTktLjM0LS4yNzUtLjUxNGExNy42OSAxNy42OSAwIDAxLS41NDctMS4xNjNjLS4xMi0uMjYyLS4xOTMtLjUyMy0uMzQtLjc2My0uNjktMS4xMzctMS40MzctMS44MjYtMi41ODYtMi41LS4yNDctLjE0LS41NDMtLjItLjg1Ni0uMjc0LS4xNjctLjAwOC0uMzM0LS4wMi0uNS0uMDI3LS4xMS0uMDQ3LS4yMTYtLjE3NC0uMzEtLjIzNS0uMzgtLjI0LTEuMzY0LS43Ni0xLjY0NC0uMDcyLS4xOC40MzQuMjY3Ljg2Mi40MjIgMS4wODIuMTE1LjE1My4yNi4zMjguMzQuNS4wNDcuMTE2LjA2LjIzNS4xMDcuMzU2LjEwNi4yOTQuMjA3LjYyMi4zNDcuODk3LjA3My4xNC4xNTMuMjg3LjI0Ny40MTMuMDU0LjA3My4xNDYuMTA3LjE2Ny4yMjctLjA5NC4xMzYtLjEuMzM0LS4xNTQuNS0uMjQuNzU3LS4xNDYgMS42OTMuMTk0IDIuMjUuMTA3LjE2Ni4zNjIuNTM0LjcwMy4zOTMuMy0uMTIuMjM0LS41LjMyLS44MzUuMDItLjA4LjAwNy0uMTMzLjA0OC0uMTg3di4wMTVjLjA5NC4xODguMTg4LjM2Ny4yNzQuNTU1LjIwNi4zMjguNTY2LjY2OC44NjcuODk1LjE2LjEyLjI4Ny4zMjguNDg3LjQwMnYtLjAyaC0uMDE1Yy0uMDQzLS4wNTgtLjEtLjA4Ni0uMTU0LS4xMzNhMy40NDUgMy40NDUgMCAwMS0uMzUtLjQgOC43NiA4Ljc2IDAgMDEtLjc0Ny0xLjIxOGMtLjExLS4yMS0uMjAyLS40MzYtLjI5LS42NDMtLjA0LS4wOC0uMDQtLjItLjEwNy0uMjQtLjEuMTQ2LS4yNDcuMjczLS4zMi40NTMtLjEyNy4yODgtLjE0LjY0Mi0uMTg4IDEuMDEtLjAyNy4wMDctLjAxNCAwLS4wMjcuMDE0LS4yMTQtLjA1Mi0uMjg3LS4yNzQtLjM2Ny0uNDYtLjItLjQ3NS0uMjMzLTEuMjM4LS4wNi0xLjc4NS4wNDctLjE0LjI0Ny0uNTgyLjE2Ny0uNzE2LS4wNDItLjEyNy0uMTc0LS4yLS4yNDctLjMwM2EyLjQ3OCAyLjQ3OCAwIDAxLS4yNC0uNDI3Yy0uMTYtLjM3NC0uMjQtLjc4OC0uNDE0LTEuMTYyLS4wOC0uMTczLS4yMi0uMzU0LS4zMzQtLjUxMy0uMTI3LS4xOC0uMjY3LS4zMDctLjM2OC0uNTItLjAzMy0uMDczLS4wOC0uMTk0LS4wMjctLjI3NC4wMTQtLjA1NC4wNDItLjA3NS4wOTQtLjA5LjA4OC0uMDcyLjMzNS4wMjIuNDIyLjA2Mi4yNDcuMS40NTUuMTk0LjY2Mi4zMzQuMDk0LjA2Ni4xOTUuMTkzLjMxNS4yMjZoLjE0Yy4yMTQuMDQ3LjQ1NS4wMTQuNjU1LjA3My4zNTUuMTE0LjY3NS4yOC45NjIuNDZhNS45NTMgNS45NTMgMCAwMTIuMDg1IDIuMjg2Yy4wOC4xNTQuMTE1LjI5NS4xODguNDU1LjE0LjMzLjMxMy42NjMuNDU1Ljk4Mi4xNC4zMTUuMjc1LjYzNi40NzYuODk3LjEuMTQuNTAyLjIxMy42ODIuMjg2LjEzMy4wNi4zNC4xMTUuNDYuMTg4LjIzLjE0LjQ1NC4zLjY3LjQ1NC4xMS4wNzYuNDQzLjI0My40NjMuMzc4eiIvPjwvc3ZnPg==" />
+                  <text aria-hidden="true" x="395" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="330">mysql</text><text x="395" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="330">mysql</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="81" height="20"
+                role="img" aria-label="MongoDB">
+                <title>MongoDB</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="81" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="81" height="20" fill="#161616" />
+                  <rect width="81" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjNDdBMjQ4IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+TW9uZ29EQjwvdGl0bGU+PHBhdGggZD0iTTE3LjE5MyA5LjU1NWMtMS4yNjQtNS41OC00LjI1Mi03LjQxNC00LjU3My04LjExNS0uMjgtLjM5NC0uNTMtLjk1NC0uNzM1LTEuNDQtLjAzNi40OTUtLjA1NS42ODUtLjUyMyAxLjE4NC0uNzIzLjU2Ni00LjQzOCAzLjY4Mi00Ljc0IDEwLjAyLS4yODIgNS45MTIgNC4yNyA5LjQzNSA0Ljg4OCA5Ljg4NGwuMDcuMDVBNzMuNDkgNzMuNDkgMCAwMTExLjkxIDI0aC40ODFjLjExNC0xLjAzMi4yODQtMi4wNTYuNTEtMy4wNy40MTctLjI5Ni42MDQtLjQ2My44NS0uNjkzYTExLjM0MiAxMS4zNDIgMCAwMDMuNjM5LTguNDY0Yy4wMS0uODE0LS4xMDMtMS42NjItLjE5Ny0yLjIxOHptLTUuMzM2IDguMTk1czAtOC4yOTEuMjc1LTguMjljLjIxMyAwIC40OSAxMC42OTUuNDkgMTAuNjk1LS4zODEtLjA0NS0uNzY1LTEuNzYtLjc2NS0yLjQwNXoiLz48L3N2Zz4=" />
+                  <text aria-hidden="true" x="495" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="530">MongoDB</text><text x="495" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="530">MongoDB</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71" height="20"
+                role="img" aria-label="firebase">
+                <title>firebase</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="71" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="71" height="20" fill="#161616" />
+                  <rect width="71" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkZDQTI4IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+RmlyZWJhc2U8L3RpdGxlPjxwYXRoIGQ9Ik0zLjg5IDE1LjY3Mkw2LjI1NS40NjFBLjU0Mi41NDIgMCAwMTcuMjcuMjg4bDIuNTQzIDQuNzcxem0xNi43OTQgMy42OTJsLTIuMjUtMTRhLjU0LjU0IDAgMDAtLjkxOS0uMjk1TDMuMzE2IDE5LjM2NWw3Ljg1NiA0LjQyN2ExLjYyMSAxLjYyMSAwIDAwMS41ODggMHpNMTQuMyA3LjE0N2wtMS44Mi0zLjQ4MmEuNTQyLjU0MiAwIDAwLS45NiAwTDMuNTMgMTcuOTg0eiIvPjwvc3ZnPg==" />
+                  <text aria-hidden="true" x="445" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="430">firebase</text><text x="445" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="430">firebase</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="65" height="20"
+                role="img" aria-label="Prisma">
+                <title>Prisma</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="65" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="65" height="20" fill="#161616" />
+                  <rect width="65" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZXNtb2tlIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UHJpc21hPC90aXRsZT48cGF0aCBkPSJNMjEuODA2OCAxOC4yODQ4TDEzLjU1MjguNzU2NWMtLjIwNy0uNDM4Mi0uNjM5LS43MjczLTEuMTI4Ni0uNzU0MS0uNTAyMy0uMDI5My0uOTUyMy4yMTMtMS4yMDYyLjYyNTNMMi4yNjYgMTUuMTI3MWMtLjI3NzMuNDUxOC0uMjcxOCAxLjAwOTEuMDE1OCAxLjQ1NTVsNC4zNzU5IDYuNzc4NmMuMjYwOC40MDQ2LjcxMjcuNjM4OCAxLjE4MjMuNjM4OC4xMzMyIDAgLjI2Ny0uMDE4OC4zOTg3LS4wNTc3bDEyLjcwMTktMy43NTY4Yy4zODkxLS4xMTUxLjcwNzItLjM5MDQuODczNy0uNzU1M3MuMTYzMy0uNzgyOC0uMDA3NS0xLjE0NTR6bS0xLjg0ODEuNzUxOUw5LjE4MTQgMjIuMjI0MmMtLjMyOTIuMDk3NS0uNjQ0OC0uMTg3My0uNTc1Ni0uNTE5NGwzLjg1MDEtMTguNDM4NmMuMDcyLS4zNDQ4LjU0ODYtLjM5OTYuNjk5LS4wODAzbDcuMTI4OCAxNS4xMzhjLjEzNDQuMjg1Ni0uMDE5LjYyMjQtLjMyNS43MTI4eiIvPjwvc3ZnPg==" />
+                  <text aria-hidden="true" x="415" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="370">Prisma</text><text x="415" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="370">Prisma</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="91" height="20"
+                role="img" aria-label="TensorFlow">
+                <title>TensorFlow</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="91" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="91" height="20" fill="#161616" />
+                  <rect width="91" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRkY2RjAwIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VGVuc29yRmxvdzwvdGl0bGU+PHBhdGggZD0iTTEuMjkyIDUuODU2TDExLjU0IDB2MjRsLTQuMDk1LTIuMzc4VjcuNjAzbC02LjE2OCAzLjU2NC4wMTUtNS4zMXptMjEuNDMgNS4zMTFsLS4wMTQtNS4zMUwxMi40NiAwdjI0bDQuMDk1LTIuMzc4VjE0Ljg3bDMuMDkyIDEuNzg4LS4wMTgtNC42MTgtMy4wNzQtMS43NTZWNy42MDNsNi4xNjggMy41NjR6Ii8+PC9zdmc+" />
+                  <text aria-hidden="true" x="545" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="630">TensorFlow</text><text x="545" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="630">TensorFlow</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="91" height="20"
+                role="img" aria-label="Tailwindcss">
+                <title>Tailwindcss</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="91" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="91" height="20" fill="#161616" />
+                  <rect width="91" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjMDZCNkQ0IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+VGFpbHdpbmQgQ1NTPC90aXRsZT48cGF0aCBkPSJNMTIuMDAxLDQuOGMtMy4yLDAtNS4yLDEuNi02LDQuOGMxLjItMS42LDIuNi0yLjIsNC4yLTEuOGMwLjkxMywwLjIyOCwxLjU2NSwwLjg5LDIuMjg4LDEuNjI0IEMxMy42NjYsMTAuNjE4LDE1LjAyNywxMiwxOC4wMDEsMTJjMy4yLDAsNS4yLTEuNiw2LTQuOGMtMS4yLDEuNi0yLjYsMi4yLTQuMiwxLjhjLTAuOTEzLTAuMjI4LTEuNTY1LTAuODktMi4yODgtMS42MjQgQzE2LjMzNyw2LjE4MiwxNC45NzYsNC44LDEyLjAwMSw0Ljh6IE02LjAwMSwxMmMtMy4yLDAtNS4yLDEuNi02LDQuOGMxLjItMS42LDIuNi0yLjIsNC4yLTEuOGMwLjkxMywwLjIyOCwxLjU2NSwwLjg5LDIuMjg4LDEuNjI0IGMxLjE3NywxLjE5NCwyLjUzOCwyLjU3Niw1LjUxMiwyLjU3NmMzLjIsMCw1LjItMS42LDYtNC44Yy0xLjIsMS42LTIuNiwyLjItNC4yLDEuOGMtMC45MTMtMC4yMjgtMS41NjUtMC44OS0yLjI4OC0xLjYyNCBDMTAuMzM3LDEzLjM4Miw4Ljk3NiwxMiw2LjAwMSwxMnoiLz48L3N2Zz4=" />
+                  <text aria-hidden="true" x="545" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="630">Tailwindcss</text><text x="545" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="630">Tailwindcss</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="59" height="20"
+                role="img" aria-label="figma">
+                <title>figma</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="59" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="59" height="20" fill="#161616" />
+                  <rect width="59" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjRjI0RTFFIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+RmlnbWE8L3RpdGxlPjxwYXRoIGQ9Ik0xNS44NTIgOC45ODFoLTQuNTg4VjBoNC41ODhjMi40NzYgMCA0LjQ5IDIuMDE0IDQuNDkgNC40OXMtMi4wMTQgNC40OTEtNC40OSA0LjQ5MXpNMTIuNzM1IDcuNTFoMy4xMTdjMS42NjUgMCAzLjAxOS0xLjM1NSAzLjAxOS0zLjAxOXMtMS4zNTUtMy4wMTktMy4wMTktMy4wMTloLTMuMTE3VjcuNTF6bTAgMS40NzFIOC4xNDhjLTIuNDc2IDAtNC40OS0yLjAxNC00LjQ5LTQuNDlTNS42NzIgMCA4LjE0OCAwaDQuNTg4djguOTgxem0tNC41ODctNy41MWMtMS42NjUgMC0zLjAxOSAxLjM1NS0zLjAxOSAzLjAxOXMxLjM1NCAzLjAyIDMuMDE5IDMuMDJoMy4xMTdWMS40NzFIOC4xNDh6bTQuNTg3IDE1LjAxOUg4LjE0OGMtMi40NzYgMC00LjQ5LTIuMDE0LTQuNDktNC40OXMyLjAxNC00LjQ5IDQuNDktNC40OWg0LjU4OHY4Ljk4ek04LjE0OCA4Ljk4MWMtMS42NjUgMC0zLjAxOSAxLjM1NS0zLjAxOSAzLjAxOXMxLjM1NSAzLjAxOSAzLjAxOSAzLjAxOWgzLjExN1Y4Ljk4MUg4LjE0OHpNOC4xNzIgMjRjLTIuNDg5IDAtNC41MTUtMi4wMTQtNC41MTUtNC40OXMyLjAxNC00LjQ5IDQuNDktNC40OWg0LjU4OHY0LjQ0MWMwIDIuNTAzLTIuMDQ3IDQuNTM5LTQuNTYzIDQuNTM5em0tLjAyNC03LjUxYTMuMDIzIDMuMDIzIDAgMCAwLTMuMDE5IDMuMDE5YzAgMS42NjUgMS4zNjUgMy4wMTkgMy4wNDQgMy4wMTkgMS43MDUgMCAzLjA5My0xLjM3NiAzLjA5My0zLjA2OHYtMi45N0g4LjE0OHptNy43MDQgMGgtLjA5OGMtMi40NzYgMC00LjQ5LTIuMDE0LTQuNDktNC40OXMyLjAxNC00LjQ5IDQuNDktNC40OWguMDk4YzIuNDc2IDAgNC40OSAyLjAxNCA0LjQ5IDQuNDlzLTIuMDE0IDQuNDktNC40OSA0LjQ5em0tLjA5Ny03LjUwOWMtMS42NjUgMC0zLjAxOSAxLjM1NS0zLjAxOSAzLjAxOXMxLjM1NSAzLjAxOSAzLjAxOSAzLjAxOWguMDk4YzEuNjY1IDAgMy4wMTktMS4zNTUgMy4wMTktMy4wMTlzLTEuMzU1LTMuMDE5LTMuMDE5LTMuMDE5aC0uMDk4eiIvPjwvc3ZnPg==" />
+                  <text aria-hidden="true" x="385" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="310">figma</text><text x="385" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="310">figma</text>
+                </g>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="67" height="20"
+                role="img" aria-label="Framer">
+                <title>Framer</title>
+                <linearGradient id="s" x2="0" y2="100%">
+                  <stop offset="0" stop-color="#bbb" stop-opacity=".1" />
+                  <stop offset="1" stop-opacity=".1" />
+                </linearGradient>
+                <clipPath id="r">
+                  <rect width="67" height="20" rx="3" fill="#fff" />
+                </clipPath>
+                <g clip-path="url(#r)">
+                  <rect width="0" height="20" fill="#555" />
+                  <rect x="0" width="67" height="20" fill="#161616" />
+                  <rect width="67" height="20" fill="url(#s)" />
+                </g>
+                <g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif"
+                  text-rendering="geometricPrecision" font-size="110">
+                  <image x="5" y="3" width="14" height="14"
+                    xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZXNtb2tlIiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+RnJhbWVyPC90aXRsZT48cGF0aCBkPSJNNCAwaDE2djhoLTh6TTQgOGg4bDggOEg0ek00IDE2aDh2OHoiLz48L3N2Zz4=" />
+                  <text aria-hidden="true" x="425" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)"
+                    textLength="390">Framer</text><text x="425" y="140" transform="scale(.1)" fill="#fff"
+                    textLength="390">Framer</text>
+                </g>
+              </svg>
             </div>
-          </div>
-          <div align="center" style="padding-top: 40px">
-            <h2>🤝 Let's Connect</h2>
-            <button>
-              <a href="https://www.linkedin.com/in/muhaemin-iskandar" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="sosmed"
-                  width="35" />
-              </a>
-            </button>
-            <button>
-              <a href="https://instagram.com/muhis.me" target="_blank">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" alt="sosmed"
-                  width="35" />
-              </a>
-            </button>
-            <button>
-              <a href="https://t.me/telemuhis" target="_blank">
-                <img
-                  src="https://upload.wikimedia.org/wikipedia/commons/archive/8/82/20150929025725%21Telegram_logo.svg"
-                  alt="sosmed" width="35" />
-              </a>
-            </button>
           </div>
         </div>
       </main>
