@@ -1,48 +1,129 @@
-[![MasterHead](https://www.nielsen.com/wp-content/uploads/sites/3/2019/04/data-science-icon-animation-banner-clockwise.gif?fit=1200%2C400)](https://github.com/MhinHub/)
-
-<span align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Welcome+to+My+Profile;Hope+you+enjoy+it!&center=true&width=360&height=50">
-</span>
-
-
-<h1 align="center">Hi 👋, I'm Muhaemin Iskandar </h1>
-<p align="center">I'm thoughts Front-End in short-term, Back-End in middle-term, & UI/UX in long-term of tech dev scope. I'm also aware of the importance of data, so mostly I learned about Business, Artificial Intelligence, Analytical, Human-Centered Experience and others related on it then connect them</p>
-
 ![](https://komarev.com/ghpvc/?username=MhinHub)
-<img align="right" width=650 alt="Coding" src="https://www.congruentsoft.com/Images/bi/bi-dashboard.gif">
 
-<h2 align="left">Connect with me:</h2>
-<p align="left">
-<a href="https://instagram.com/muhis.me" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="muhis.me" height="30" width="27" /></a>
-</p>
+<svg fill="none" viewBox="0 0 600 1000" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @keyframes gradient {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+        @keyframes hi  {
+            0% { transform: rotate( 0.0deg) }
+           10% { transform: rotate(14.0deg) }
+           20% { transform: rotate(-8.0deg) }
+           30% { transform: rotate(14.0deg) }
+           40% { transform: rotate(-4.0deg) }
+           50% { transform: rotate(10.0deg) }
+           60% { transform: rotate( 0.0deg) }
+          100% { transform: rotate( 0.0deg) }
+        }
+        .container {
+          border-radius: 40px 40px 0px 0px;
+          background: none;
+          width: 100%;
+          height: 100%;
+          padding: 20px 0;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          color: white;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+        }
+        .hi {
+          animation: hi 1.5s linear -0.5s infinite;
+          display: inline-block;
+          transform-origin: 70% 70%;
+        }
+        h2 {
+  padding: 10px 15px;
+  position: relative;
+  width: fit-content;
+  z-index: 0;
+        }
+        h2:before {
+          content: "";
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    padding: 2px;
+    border-radius: 15px;
+    background: linear-gradient(-45deg, #007CF0, #00DFD8, #7928CA, #FF0080, #6FEE8D, #17C964); 
+    background-size: 400% 400%; 
+    animation: gradient 8s ease infinite;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box,  linear-gradient(#fff 0 0);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+        }
+      </style>
+      <main class="container">
+      <!-- <header style="position: relative; display: flex;  flex-direction: column; justify-content: center; align-items: center; width: 100%; height: 200px;"> -->
+        <div style="position: absolute; top: 0; z-index: 0; height: 100%; width: 100%; background-image: radial-gradient(#ffffff33 1px, transparent 1px); background-size: 20px 20px; border-radius: 40px 40px 0px 0px;"></div>
+        <div style="z-index: 1;">
+        <p align="center" style="margin-bottom: -8px;">Connecting the Dots</p>
+        <div style="display: flex; gap: 10px; font-weight: 700; font-size: 3rem; margin-bottom: 10px">
+        <p style="background: linear-gradient(-45deg, #007CF0, #00DFD8); background-size: 200% 200%; animation: gradient 3s ease infinite; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Design.</p>
+        <p style="background: linear-gradient(-45deg, #7928CA, #FF0080); background-size: 200% 200%; animation: gradient 3s ease infinite; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Develop.</p>
+        <p style="background: linear-gradient(-45deg, #6FEE8D, #17C964); background-size: 200% 200%; animation: gradient 3s ease infinite; background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Desire.</p>
+        </div>
+        <!-- </div> -->
+      </header>
+        <div align="center" style="margin: 20px 0;">
+        <h1 style="font-size: 2rem; font-weight: 900;">Heyyo, I'm Min <div class="hi">👋</div></h1>
+        <p>Road to be M-Shape Software Engineer</p>
+        <p>Currently deep-dive in FE & Realtime-API</p>
+      </div>
+        <div style="z-index: 1;">
+      <div align="center">
+      <h2>Tech Stack</h2>
+      <h3>Languages</h3>
+      <img src="https://skillicons.dev/icons?i=ts,python,golang" alt="icons">
+      <h3>Tools</h3>
+      <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+      <img src="https://img.shields.io/badge/Next-black?logo=next.js&logoColor=white" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/express.js-%23404d59.svg?logo=express&logoColor=%2361DAFB" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/nestjs-%23E0234E.svg?logo=nestjs&logoColor=white" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/FastAPI-005571?logo=fastapi" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/Gin-1C1E24?logo=gin" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/-GraphQL-E10098?logo=graphql&logoColor=white" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/Socket.io-black?logo=socket.io&badgeColor=010101" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/tRPC-black?logo=trpc" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/redux-%23593d88.svg?logo=redux&logoColor=white" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/zustand-%23161616.svg?logo=react" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/node.js-6DA55F?logo=node.js&logoColor=white" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/Bun-1C1E24?logo=bun" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/postgres-%23316192.svg?logo=postgresql&logoColor=white" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/mysql-1C1E24.svg?logo=mysql" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?logo=mongodb&logoColor=white" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/firebase-%23039BE5.svg?logo=firebase" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/Prisma-3982CE?logo=Prisma&logoColor=white" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/TensorFlow-black.svg?logo=TensorFlow" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/Tailwindcss-%2338B2AC.svg?logo=tailwind-css&logoColor=white" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/figma-black.svg?logo=figma" alt="icon" height="25"/>
+      <img src="https://img.shields.io/badge/Framer-black?logo=framer&logoColor=blue" alt="icon" height="25"/>
+      </div>
+      </div>
+      <div align="center">
+      <h2>Lets Connect</h2>
+      <a href="#">LinkedIn</a>
+      </div>
+      </div>
+      </main>
+    </div>
+  </foreignObject>
+</svg>
 
-  
-<h2 align="left">Languages and Tools:</h2>
-<p align="left">
-  <a href="https://www.python.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="27" height="27"/> </a>
-  <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="27" height="27"/> </a>
-  <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="27" height="27"/> </a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="27" height="27"/> </a>
-  <a href="https://www.mysql.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="27" height="27"/> </a>
-  
- <p> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="27" height="27"/> </a>
-  <a href="https://www.w3schools.com/css/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="27" height="27"/> </a> </p>
-  
-
-  <a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="27" height="27"/> </a>
-  <a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="27" height="27"/> </a>
-  <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="27" height="27"/> </a>
- <a href="https://www.gnu.org/software/bash/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="27" height="27"/> </a>
-  <a href="https://www.blender.org/" target="_blank"> <img src="https://download.blender.org/branding/community/blender_community_badge_white.svg" alt="blender" width="27" height="27"/> </a>
-  
-  </p>
-  
-  <h2 align="left">AI/ML:</h2>
-<p align="left">
-<a href="https://opencv.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="27" height="27"/> </a>
-  <a href="https://pytorch.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="27" height="27"/> </a>
-  <a href="https://scikit-learn.org/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="27" height="27"/> </a>
-  <a href="https://www.tensorflow.org" target="_blank"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="27" height="27"/> </a> </p>
+<details><summary>More</summary>
 <!-- DevCard -->
   <h5 align='center'>DevCard</h5>
   <p align ="center">
@@ -50,9 +131,6 @@
   </p>
   <br>
 
-<!--
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mhinhub&theme=darkhub" alt="mhinhub" /></a> </p>
--->
 <h3 align="center"> Stats </h3>
 <br>
 <p align=center>
@@ -75,3 +153,5 @@
 
 
 [![MhinHub github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=MhinHub&bg_color=20232A&color=61d9fa&line=61d9fa&point=e6e6e6&area=true&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</details>
